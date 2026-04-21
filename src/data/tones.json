@@ -1,0 +1,802 @@
+{
+  "tone_blues_ts_1": {
+    "band": "Blues",
+    "genre": "Texas Blues",
+    "tonex_model": "Fender Bassman AB165 — edge of breakup",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Analog Chorus" },
+      { "slot": "stomp_b", "device": "Tube Screamer (TS808)" },
+      { "slot": "stomp_c", "device": "Noise Gate" },
+      { "slot": "amp_head", "device": "Fender Bassman" },
+      { "slot": "cabinet", "device": "4x10 Tweed Jensen P10R" },
+      { "slot": "rack_a", "device": "Parametric EQ — scoop 2.5kHz slight" },
+      { "slot": "rack_b", "device": "Spring Reverb — mix 18%" }
+    ],
+    "notes": "Drive TS808 ~35%; Bassman volume até clip suave; microfonagem cab sim 1x SM57 off-axis."
+  },
+  "tone_blues_chicago_1": {
+    "band": "Blues",
+    "genre": "Chicago Blues",
+    "tonex_model": "Marshall JTM45 — pushed clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Wah (optional heel down)" },
+      { "slot": "stomp_b", "device": "Overdrive — Blues Driver voicing" },
+      { "slot": "amp_head", "device": "Marshall JTM45" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "rack_a", "device": "Graphic EQ — +2dB 125Hz" },
+      { "slot": "delay", "device": "Tape Echo — 1/8 note dotted, feedback 22%" }
+    ],
+    "notes": "JTM45 master alto, presence médio; OD como boost leve."
+  },
+  "tone_gnr_1": {
+    "band": "Guns N' Roses",
+    "genre": "Hard Rock (Appetite era)",
+    "tonex_model": "Marshall JCM800 2203 — high gain stage",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — threshold médio" },
+      { "slot": "stomp_b", "device": "Overdrive — Tube Screamer (boost)" },
+      { "slot": "stomp_c", "device": "Chorus — mix baixo 12%" },
+      { "slot": "amp_head", "device": "Marshall JCM800 2203" },
+      { "slot": "cabinet", "device": "4x12 Celestion G12T-75" },
+      { "slot": "rack_a", "device": "Parametric EQ — +3dB 3.2kHz" },
+      { "slot": "delay", "device": "Stereo Delay — 1/4 note ping-pong 15%" },
+      { "slot": "reverb", "device": "Room Reverb — mix 8%" }
+    ],
+    "notes": "TS como boost (drive baixo); JCM preamp alto, presence 6–7."
+  },
+  "tone_gnr_2": {
+    "band": "Guns N' Roses",
+    "genre": "Lead — sustain",
+    "tonex_model": "Soldano SLO-100 — lead channel",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — 3:1, slow attack" },
+      { "slot": "stomp_b", "device": "Overdrive — clean boost +6dB" },
+      { "slot": "amp_head", "device": "Soldano SLO-100" },
+      { "slot": "cabinet", "device": "4x12 V30 mix" },
+      { "slot": "rack_a", "device": "De-Esser leve no 5–7kHz (opcional)" },
+      { "slot": "delay", "device": "Analog Delay — 380ms, feedback 28%" },
+      { "slot": "reverb", "device": "Hall — pre-delay 25ms, mix 12%" }
+    ],
+    "notes": "Lead: canal vermelho; drive e sustain altos, sem baixar graves demais."
+  },
+  "tone_sabbath_1": {
+    "band": "Black Sabbath",
+    "genre": "Early Metal — riff",
+    "tonex_model": "Laney Supergroup / vintage British stack (TONEX capture)",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Fuzz Face — sustain alto" },
+      { "slot": "stomp_b", "device": "Graphic EQ — bump 80Hz +4dB" },
+      { "slot": "amp_head", "device": "British Lead (Plexi-style)" },
+      { "slot": "cabinet", "device": "4x12 Greenback 20W" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 6kHz -2dB" },
+      { "slot": "reverb", "device": "Plate Reverb — mix 6%" }
+    ],
+    "notes": "Fuzz antes do amp; volume guitarra no máximo para abrir o fuzz."
+  },
+  "tone_sabbath_2": {
+    "band": "Black Sabbath",
+    "genre": "Doom — lento e pesado",
+    "tonex_model": "Orange OR120 — saturado",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Octaver — sub oitava blend 25%" },
+      { "slot": "stomp_b", "device": "Distortion — Rat-style filter médio" },
+      { "slot": "amp_head", "device": "Orange OR120" },
+      { "slot": "cabinet", "device": "4x12 V30 + 2x15 (blend sim)" },
+      { "slot": "rack_a", "device": "Multiband comp — só graves" },
+      { "slot": "delay", "device": "Tape Echo — mix 10%" }
+    ],
+    "notes": "Afinação drop; graves reforçados; evitar excesso de agudos nas palhetadas."
+  },
+  "tone_srv_texas_1": {
+    "band": "Stevie Ray Vaughan",
+    "genre": "Texas Blues — clean/crunch",
+    "tonex_model": "Fender Vibroverb '64 — edge of breakup",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — leve (2:1), mix 65%" },
+      { "slot": "stomp_b", "device": "Tube Screamer (TS808) — drive baixo, level alto" },
+      { "slot": "amp_head", "device": "Fender Vibroverb" },
+      { "slot": "cabinet", "device": "2x15 Jensen (vintage)" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 250Hz -2dB, +2dB 3kHz" },
+      { "slot": "reverb", "device": "Spring Reverb — mix 15%" }
+    ],
+    "notes": "Single-coils; TS como boost; atacar forte e controlar com volume da guitarra."
+  },
+  "tone_srv_texas_2": {
+    "band": "Stevie Ray Vaughan",
+    "genre": "Texas Blues — lead com sustain",
+    "tonex_model": "Fender Super Reverb — cranked",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — threshold baixo" },
+      { "slot": "stomp_b", "device": "Tube Screamer (TS808) — mid hump" },
+      { "slot": "stomp_c", "device": "Vibe/Uni-Vibe — speed lento, mix 25%" },
+      { "slot": "amp_head", "device": "Fender Super Reverb" },
+      { "slot": "cabinet", "device": "4x10 Jensen (SRV-ish)" },
+      { "slot": "reverb", "device": "Spring Reverb — mix 12%" }
+    ],
+    "notes": "Super Reverb bem alto; vibe só para textura; palm mute para limpar ruído."
+  },
+  "tone_jimi_1": {
+    "band": "Jimi Hendrix",
+    "genre": "Psychedelic Rock — fuzz + vibe",
+    "tonex_model": "Marshall Plexi 1959 — loud clean-to-crunch",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Fuzz Face (Germanium) — fuzz 75%, volume 60%" },
+      { "slot": "stomp_b", "device": "Uni-Vibe — chorus mode, mix 35%" },
+      { "slot": "amp_head", "device": "Marshall Plexi 1959" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "delay", "device": "Tape Echo — slap 110ms, feedback 12%" },
+      { "slot": "reverb", "device": "Room — mix 8%" }
+    ],
+    "notes": "Volume da guitarra controla limpeza do fuzz; wah opcional antes do fuzz."
+  },
+  "tone_jimi_2": {
+    "band": "Jimi Hendrix",
+    "genre": "Clean — chordal com modulação",
+    "tonex_model": "Fender Twin Reverb — clean headroom",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Wah — posição meio (opcional)" },
+      { "slot": "stomp_b", "device": "Analog Chorus — rate lento, mix 18%" },
+      { "slot": "amp_head", "device": "Fender Twin Reverb" },
+      { "slot": "cabinet", "device": "2x12 Jensen C12K" },
+      { "slot": "reverb", "device": "Spring Reverb — mix 20%" }
+    ],
+    "notes": "Para 'Little Wing'-ish: chorus bem sutil, reverb mais presente, palhetada leve."
+  },
+  "tone_zz_top_1": {
+    "band": "ZZ Top",
+    "genre": "Blues Rock — crunch seco",
+    "tonex_model": "Marshall Super Lead — crunch médio",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Overdrive — low gain, +4dB boost" },
+      { "slot": "amp_head", "device": "Marshall Super Lead" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "rack_a", "device": "Graphic EQ — leve +2dB 800Hz" },
+      { "slot": "reverb", "device": "Room — mix 6%" }
+    ],
+    "notes": "Som mais 'na cara': pouca ambiência, médios presentes, gate mínimo."
+  },
+  "tone_john_mayer_1": {
+    "band": "John Mayer",
+    "genre": "Modern Blues — clean com ataque",
+    "tonex_model": "Two-Rock style — clean/edge",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — ataque lento, sustain leve" },
+      { "slot": "stomp_b", "device": "Klon-style OD — gain baixo, treble moderado" },
+      { "slot": "amp_head", "device": "Dumble/Two-Rock style clean" },
+      { "slot": "cabinet", "device": "2x12 Blackface/Jensen (sim)" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 200Hz -2dB, +1.5dB 2.2kHz" },
+      { "slot": "reverb", "device": "Spring — mix 14%" }
+    ],
+    "notes": "Singles; compressor só para nivelar; OD como empurrão, não como dist pesada."
+  },
+  "tone_radiohead_1": {
+    "band": "Radiohead",
+    "genre": "Alternative — clean com shimmer",
+    "tonex_model": "Vox AC30 — bright clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — leve, mix 55%" },
+      { "slot": "stomp_b", "device": "Digital Delay — 1/8 dotted, feedback 25%" },
+      { "slot": "amp_head", "device": "Vox AC30" },
+      { "slot": "cabinet", "device": "2x12 Alnico Blue" },
+      { "slot": "reverb", "device": "Plate — mix 14%" }
+    ],
+    "notes": "Cortar graves se embolar; delay em colcheia pontuada para textura rítmica."
+  },
+  "tone_u2_edge_1": {
+    "band": "U2 (The Edge)",
+    "genre": "Delay — dotted eighth",
+    "tonex_model": "Vox AC30 — clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — sustain médio" },
+      { "slot": "stomp_b", "device": "Digital Delay — 1/8 dotted, mix 35%, feedback 35%" },
+      { "slot": "amp_head", "device": "Vox AC30" },
+      { "slot": "cabinet", "device": "2x12 Alnico Blue" },
+      { "slot": "reverb", "device": "Hall — mix 10%" }
+    ],
+    "notes": "Tocar 'staccato' para o delay preencher; ganho baixo no amp; cortar um pouco 300Hz."
+  },
+  "tone_pink_floyd_1": {
+    "band": "Pink Floyd (David Gilmour)",
+    "genre": "Lead — sustain + delay",
+    "tonex_model": "Hiwatt DR103 — clean plataforma",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — 3:1, sustain moderado" },
+      { "slot": "stomp_b", "device": "Big Muff — sustain 65%, tone 45%" },
+      { "slot": "amp_head", "device": "Hiwatt DR103" },
+      { "slot": "cabinet", "device": "4x12 Fane-style" },
+      { "slot": "delay", "device": "Tape Echo — 430ms, feedback 28%, mix 18%" },
+      { "slot": "reverb", "device": "Plate — mix 12%" }
+    ],
+    "notes": "Hiwatt bem limpo; Muff como dist principal; ajustar tone do muff para não ficar áspero."
+  },
+  "tone_pink_floyd_2": {
+    "band": "Pink Floyd (David Gilmour)",
+    "genre": "Clean — chorus + delay leve",
+    "tonex_model": "Fender Twin — clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Chorus — rate lento, mix 22%" },
+      { "slot": "stomp_b", "device": "Analog Delay — 320ms, feedback 18%" },
+      { "slot": "amp_head", "device": "Fender Twin Reverb" },
+      { "slot": "cabinet", "device": "2x12 Jensen C12K" },
+      { "slot": "reverb", "device": "Plate — mix 10%" }
+    ],
+    "notes": "Som cristalino; chorus discreto; delay apenas para profundidade."
+  },
+  "tone_metallica_rhythm_1": {
+    "band": "Metallica",
+    "genre": "Thrash — rhythm tight",
+    "tonex_model": "Mesa/Boogie Mark IIC+ — rhythm",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — threshold alto" },
+      { "slot": "stomp_b", "device": "Overdrive — TS-style, drive 0–10%, level alto" },
+      { "slot": "amp_head", "device": "Mesa/Boogie Mark IIC+ (sim)" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Graphic EQ — V-shape moderado, +3dB 80Hz, +3dB 2.2kHz" }
+    ],
+    "notes": "Palm mute firme; gate e TS para apertar; graves não exagerar para não embolar."
+  },
+  "tone_metallica_lead_1": {
+    "band": "Metallica",
+    "genre": "Lead — delay curto",
+    "tonex_model": "Mesa/Boogie Mark IV — lead",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — threshold médio" },
+      { "slot": "stomp_b", "device": "Overdrive — boost +5dB" },
+      { "slot": "amp_head", "device": "Mesa/Boogie Mark IV" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "delay", "device": "Digital Delay — 260ms, feedback 22%, mix 14%" },
+      { "slot": "reverb", "device": "Room — mix 6%" }
+    ],
+    "notes": "Delay curto para engrossar; EQ focado em médios altos para cortar na mix."
+  },
+  "tone_slipknot_1": {
+    "band": "Slipknot",
+    "genre": "Nu Metal — high gain tight",
+    "tonex_model": "Peavey 5150/6505 — high gain",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — agressivo" },
+      { "slot": "stomp_b", "device": "Overdrive — TS-style tight (drive mínimo)" },
+      { "slot": "amp_head", "device": "Peavey 6505" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 4.5kHz -2dB, HPF 80Hz" }
+    ],
+    "notes": "Afinações baixas; HPF ajuda a limpar; manter presença sem harsh."
+  },
+  "tone_pantera_1": {
+    "band": "Pantera",
+    "genre": "Groove Metal — scooped bite",
+    "tonex_model": "Randall solid-state style — tight",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — threshold alto" },
+      { "slot": "stomp_b", "device": "Graphic EQ — scoop médio, +3dB 8kHz" },
+      { "slot": "amp_head", "device": "Solid State High Gain (Randall-style)" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Parametric EQ — +2dB 120Hz, corte 2kHz -1dB" }
+    ],
+    "notes": "Cuidado com scoop excessivo; ataque vem dos agudos/presença e do palm mute."
+  },
+  "tone_iron_maiden_1": {
+    "band": "Iron Maiden",
+    "genre": "NWOBHM — rhythm gallop",
+    "tonex_model": "Marshall JCM800 — crunch",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Overdrive — clean boost leve" },
+      { "slot": "amp_head", "device": "Marshall JCM800 2203" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "rack_a", "device": "Graphic EQ — +2dB 1.6kHz, -1dB 100Hz" },
+      { "slot": "reverb", "device": "Room — mix 5%" }
+    ],
+    "notes": "Ganho médio; médios altos ajudam a articulação do 'gallop'."
+  },
+  "tone_iron_maiden_2": {
+    "band": "Iron Maiden",
+    "genre": "Lead — delay curto",
+    "tonex_model": "Marshall JCM800 — lead boosted",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Overdrive — TS-style, drive baixo" },
+      { "slot": "stomp_b", "device": "Compressor — leve" },
+      { "slot": "amp_head", "device": "Marshall JCM800 2203" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "delay", "device": "Analog Delay — 280ms, feedback 20%, mix 12%" }
+    ],
+    "notes": "Boost para sustain; delay curto como espessura; reverb mínimo."
+  },
+  "tone_acdc_1": {
+    "band": "AC/DC",
+    "genre": "Classic Rock — crunch dinâmico",
+    "tonex_model": "Marshall Plexi — crunch",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — off/baixo (dinâmica)" },
+      { "slot": "amp_head", "device": "Marshall Plexi 1959" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 120Hz -1.5dB, +1.5dB 2.8kHz" },
+      { "slot": "reverb", "device": "Room — mix 4%" }
+    ],
+    "notes": "Pouco gain, muito volume; controle no ataque e volume da guitarra."
+  },
+  "tone_van_halen_1": {
+    "band": "Van Halen",
+    "genre": "Brown sound — crunch quente",
+    "tonex_model": "Plexi modded — hot-rodded",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Phase 90-style — rate lento" },
+      { "slot": "amp_head", "device": "Hot-Rodded Plexi" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 6.5kHz -3dB, +2dB 700Hz" },
+      { "slot": "reverb", "device": "Plate — mix 6%" }
+    ],
+    "notes": "Phase sutil; cortar agudos para o 'brown'; humbucker na ponte."
+  },
+  "tone_van_halen_2": {
+    "band": "Van Halen",
+    "genre": "Lead — delay discreto",
+    "tonex_model": "Hot-Rodded Plexi — lead",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — leve" },
+      { "slot": "stomp_b", "device": "Overdrive — boost +3dB" },
+      { "slot": "amp_head", "device": "Hot-Rodded Plexi" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "delay", "device": "Digital Delay — 300ms, feedback 18%, mix 10%" }
+    ],
+    "notes": "Delay baixo; sustain vem do amp; manter médios para destaque."
+  },
+  "tone_dire_straits_1": {
+    "band": "Dire Straits (Mark Knopfler)",
+    "genre": "Clean — ataque e brilho",
+    "tonex_model": "Fender Vibrolux — clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — sustain moderado, ataque médio" },
+      { "slot": "amp_head", "device": "Fender Vibrolux" },
+      { "slot": "cabinet", "device": "2x10 Jensen (sim)" },
+      { "slot": "rack_a", "device": "Parametric EQ — +2dB 2.5kHz, corte 120Hz -2dB" },
+      { "slot": "reverb", "device": "Spring — mix 12%" }
+    ],
+    "notes": "Toque com dedos ajuda; compressor para 'snap'; evitar drive."
+  },
+  "tone_red_hot_1": {
+    "band": "Red Hot Chili Peppers",
+    "genre": "Funk Rock — clean percussivo",
+    "tonex_model": "Fender Silverface — clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — ataque rápido, mix 70%" },
+      { "slot": "stomp_b", "device": "Wah (auto/optional) — leve" },
+      { "slot": "amp_head", "device": "Fender Clean (Twin/Silverface)" },
+      { "slot": "cabinet", "device": "2x12 Jensen" },
+      { "slot": "reverb", "device": "Room — mix 6%" }
+    ],
+    "notes": "Palm mute + strumming; compressor é chave; captador do meio/ponte."
+  },
+  "tone_red_hot_2": {
+    "band": "Red Hot Chili Peppers",
+    "genre": "Lead — overdrive médio",
+    "tonex_model": "Marshall Silver Jubilee — lead",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Overdrive — mid gain (TS-style)" },
+      { "slot": "amp_head", "device": "Marshall Silver Jubilee" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "delay", "device": "Analog Delay — 340ms, feedback 22%, mix 12%" },
+      { "slot": "reverb", "device": "Plate — mix 8%" }
+    ],
+    "notes": "Jubilee com médios; drive moderado; delay discreto para sustain."
+  },
+  "tone_green_day_1": {
+    "band": "Green Day",
+    "genre": "Punk Rock — rhythm",
+    "tonex_model": "Marshall JCM900 / mod — crunch",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — médio" },
+      { "slot": "amp_head", "device": "Marshall JCM900" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Graphic EQ — +2dB 1kHz, HPF 90Hz" }
+    ],
+    "notes": "Som direto; pouco reverb; cortar graves para power chords definidos."
+  },
+  "tone_nirvana_1": {
+    "band": "Nirvana",
+    "genre": "Grunge — clean chorused",
+    "tonex_model": "Roland JC-120 — clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Chorus — JC-style, mix 35%" },
+      { "slot": "amp_head", "device": "Roland JC-120" },
+      { "slot": "cabinet", "device": "2x12 JC speakers" },
+      { "slot": "reverb", "device": "Room — mix 10%" }
+    ],
+    "notes": "Base clean com chorus; para alternar, ligar dist separada (ver outro preset)."
+  },
+  "tone_nirvana_2": {
+    "band": "Nirvana",
+    "genre": "Grunge — distortion",
+    "tonex_model": "Marshall JCM800 — crunch",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Distortion — DS-1 style, tone 55%" },
+      { "slot": "stomp_b", "device": "Noise Gate — threshold médio" },
+      { "slot": "amp_head", "device": "Marshall JCM800" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" }
+    ],
+    "notes": "DS-1 empurrando amp; médios não sumir; volume guitarra para limpar um pouco."
+  },
+  "tone_foo_fighters_1": {
+    "band": "Foo Fighters",
+    "genre": "Alt Rock — rhythm wide",
+    "tonex_model": "Mesa Rectifier — modern rhythm",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — médio/alto" },
+      { "slot": "amp_head", "device": "Mesa Dual Rectifier" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 300Hz -2dB, +2dB 1.6kHz" },
+      { "slot": "reverb", "device": "Room — mix 4%" }
+    ],
+    "notes": "Ganho moderado para definição; dobrar tracks em estéreo se gravando."
+  },
+  "tone_oasis_1": {
+    "band": "Oasis",
+    "genre": "Britpop — crunch brilhante",
+    "tonex_model": "Vox AC30 — crunch",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Overdrive — low gain, tone aberto" },
+      { "slot": "amp_head", "device": "Vox AC30" },
+      { "slot": "cabinet", "device": "2x12 Alnico Blue" },
+      { "slot": "reverb", "device": "Plate — mix 8%" }
+    ],
+    "notes": "AC30 com brilho; evitar graves excessivos; palhetada firme em open chords."
+  },
+  "tone_queen_1": {
+    "band": "Queen",
+    "genre": "Classic Rock — lead com brilho",
+    "tonex_model": "Vox AC30 — treble boost",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Treble Booster — +10dB, corte graves" },
+      { "slot": "amp_head", "device": "Vox AC30" },
+      { "slot": "cabinet", "device": "2x12 Alnico Blue" },
+      { "slot": "delay", "device": "Tape Echo — 260ms, feedback 18%, mix 10%" },
+      { "slot": "reverb", "device": "Plate — mix 8%" }
+    ],
+    "notes": "Treble boost antes do AC30; midrange cantando; pouco reverb."
+  },
+  "tone_rhcp_scar_tissue_1": {
+    "band": "Red Hot Chili Peppers",
+    "genre": "Clean/edge — chorus sutil",
+    "tonex_model": "Fender Blackface — edge",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — leve" },
+      { "slot": "stomp_b", "device": "Chorus — mix 15%" },
+      { "slot": "amp_head", "device": "Fender Blackface (Deluxe/Twin)" },
+      { "slot": "cabinet", "device": "2x12 Jensen" },
+      { "slot": "reverb", "device": "Spring — mix 14%" }
+    ],
+    "notes": "Chorus muito discreto; som arejado; tocar na posição do captador do braço/medio."
+  },
+  "tone_coldplay_1": {
+    "band": "Coldplay",
+    "genre": "Indie — clean com delay",
+    "tonex_model": "Vox AC30 — clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Digital Delay — 1/4 note, feedback 25%, mix 22%" },
+      { "slot": "amp_head", "device": "Vox AC30" },
+      { "slot": "cabinet", "device": "2x12 Alnico Blue" },
+      { "slot": "reverb", "device": "Hall — mix 10%" }
+    ],
+    "notes": "Delay em 1/4 para ambience rítmica; low gain; acordes abertos."
+  },
+  "tone_linkin_park_1": {
+    "band": "Linkin Park",
+    "genre": "Nu Metal — rhythm",
+    "tonex_model": "Mesa Dual Rectifier — tight",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — agressivo" },
+      { "slot": "stomp_b", "device": "Overdrive — TS-style, drive mínimo" },
+      { "slot": "amp_head", "device": "Mesa Dual Rectifier" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Graphic EQ — HPF 90Hz, +2dB 2kHz" }
+    ],
+    "notes": "Ataque definido; gate + TS para apertar; afinação baixa pede HPF."
+  },
+  "tone_deftones_1": {
+    "band": "Deftones",
+    "genre": "Alternative Metal — wall of sound",
+    "tonex_model": "Mesa Rectifier — saturated",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — médio" },
+      { "slot": "stomp_b", "device": "Chorus — wide, mix 20%" },
+      { "slot": "amp_head", "device": "Mesa Dual Rectifier" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "reverb", "device": "Room — mix 5%" }
+    ],
+    "notes": "Chorus dá largura; manter presença sem harsh; palm mute alternado com abertos."
+  },
+  "tone_tool_1": {
+    "band": "Tool",
+    "genre": "Prog Metal — tight e médio",
+    "tonex_model": "Diezel VH4 — rhythm",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — médio/alto" },
+      { "slot": "stomp_b", "device": "Overdrive — boost leve" },
+      { "slot": "amp_head", "device": "Diezel VH4" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Parametric EQ — +2dB 1kHz, corte 250Hz -2dB" }
+    ],
+    "notes": "Menos scoop, mais médios; riffs em compasso ímpar pedem definição."
+  },
+  "tone_dream_theater_1": {
+    "band": "Dream Theater",
+    "genre": "Prog Metal — lead articulado",
+    "tonex_model": "Mesa Mark V — lead",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — médio" },
+      { "slot": "stomp_b", "device": "Overdrive — TS-style boost" },
+      { "slot": "amp_head", "device": "Mesa Mark V" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "delay", "device": "Digital Delay — 360ms, feedback 25%, mix 14%" },
+      { "slot": "reverb", "device": "Plate — mix 8%" }
+    ],
+    "notes": "Lead com médios; delay para sustain; palhetada alternada bem clara."
+  },
+  "tone_alice_in_chains_1": {
+    "band": "Alice in Chains",
+    "genre": "Grunge/Metal — crunch dark",
+    "tonex_model": "Bogner/Marshall high gain — dark",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — médio" },
+      { "slot": "amp_head", "device": "British High Gain (Bogner-style)" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 3.8kHz -2dB, +2dB 160Hz" }
+    ],
+    "notes": "Som mais escuro; cuidado com 4kHz; dupla de guitarras funciona bem com variações leves."
+  },
+  "tone_pearl_jam_1": {
+    "band": "Pearl Jam",
+    "genre": "Alt Rock — crunch aberto",
+    "tonex_model": "Fender Bassman / Marshall blend — crunch",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Overdrive — low gain, level moderado" },
+      { "slot": "amp_head", "device": "British Crunch (Plexi-style)" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "reverb", "device": "Room — mix 6%" }
+    ],
+    "notes": "Som orgânico; pouco processamento; open chords com dinâmica."
+  },
+  "tone_bon_jovi_1": {
+    "band": "Bon Jovi",
+    "genre": "80s Rock — rhythm com chorus",
+    "tonex_model": "Marshall JCM800 — rhythm",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Chorus — 80s, mix 22%" },
+      { "slot": "stomp_b", "device": "Overdrive — boost leve" },
+      { "slot": "amp_head", "device": "Marshall JCM800" },
+      { "slot": "cabinet", "device": "4x12 G12T-75" },
+      { "slot": "reverb", "device": "Plate — mix 8%" }
+    ],
+    "notes": "Chorus moderado; ganho médio; reverb pequeno para ambiência."
+  },
+  "tone_def_leppard_1": {
+    "band": "Def Leppard",
+    "genre": "80s Rock — polished rhythm",
+    "tonex_model": "Marshall modded — tight",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — médio" },
+      { "slot": "stomp_b", "device": "Chorus — wide, mix 18%" },
+      { "slot": "amp_head", "device": "Hot-Rodded Marshall" },
+      { "slot": "cabinet", "device": "4x12 G12T-75" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 250Hz -2dB, +2dB 3kHz" }
+    ],
+    "notes": "Som mais 'polido': chorus e EQ; reverb mínimo para não lavar."
+  },
+  "tone_the_cure_1": {
+    "band": "The Cure",
+    "genre": "Post-Punk — chorus + delay",
+    "tonex_model": "Roland JC-120 — clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Chorus — deep, mix 40%" },
+      { "slot": "stomp_b", "device": "Digital Delay — 1/4 note, feedback 30%, mix 22%" },
+      { "slot": "amp_head", "device": "Roland JC-120" },
+      { "slot": "cabinet", "device": "2x12 JC speakers" },
+      { "slot": "reverb", "device": "Hall — mix 12%" }
+    ],
+    "notes": "Chorus mais evidente; delay em 1/4; som bem limpo e brilhante."
+  },
+  "tone_smiths_1": {
+    "band": "The Smiths",
+    "genre": "Jangle Pop — clean brilhante",
+    "tonex_model": "Vox AC30 — clean bright",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — sustain leve" },
+      { "slot": "amp_head", "device": "Vox AC30" },
+      { "slot": "cabinet", "device": "2x12 Alnico Blue" },
+      { "slot": "reverb", "device": "Room — mix 8%" }
+    ],
+    "notes": "Palhetada em arpejos; compressor para consistência; cortar graves se necessário."
+  },
+  "tone_mega_deth_1": {
+    "band": "Megadeth",
+    "genre": "Thrash — rhythm",
+    "tonex_model": "Marshall JCM800 + boost — tight",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — alto" },
+      { "slot": "stomp_b", "device": "Overdrive — TS boost, drive mínimo" },
+      { "slot": "amp_head", "device": "Marshall JCM800 2203" },
+      { "slot": "cabinet", "device": "4x12 V30 / G12T-75 mix" },
+      { "slot": "rack_a", "device": "Graphic EQ — +2dB 1.6kHz, HPF 90Hz" }
+    ],
+    "notes": "Palm mute rápido pede gate e boost; médios para articulação dos riffs."
+  },
+  "tone_slayer_1": {
+    "band": "Slayer",
+    "genre": "Thrash — aggressive",
+    "tonex_model": "Marshall JCM800 — high gain boosted",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — alto" },
+      { "slot": "stomp_b", "device": "Overdrive — boost +6dB" },
+      { "slot": "amp_head", "device": "Marshall JCM800 2203" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Parametric EQ — +2dB 3.5kHz, corte 200Hz -2dB" }
+    ],
+    "notes": "Som cortante; evitar graves; presença e médios altos para agressividade."
+  },
+  "tone_beatles_1": {
+    "band": "The Beatles",
+    "genre": "60s — clean/crunch leve",
+    "tonex_model": "Vox AC30 — vintage crunch",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — leve" },
+      { "slot": "amp_head", "device": "Vox AC30" },
+      { "slot": "cabinet", "device": "2x12 Alnico Blue" },
+      { "slot": "reverb", "device": "Spring/Room — mix 10%" }
+    ],
+    "notes": "Crunch leve; palhetada suave; reverb curto."
+  },
+  "tone_led_zeppelin_1": {
+    "band": "Led Zeppelin",
+    "genre": "Classic Rock — crunch orgânico",
+    "tonex_model": "Marshall Super Lead — cranked",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Wah (optional) — off" },
+      { "slot": "amp_head", "device": "Marshall Super Lead" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "reverb", "device": "Room — mix 5%" }
+    ],
+    "notes": "Ganho médio/baixo e volume alto; dinâmica na mão direita."
+  },
+  "tone_deep_purple_1": {
+    "band": "Deep Purple",
+    "genre": "Hard Rock — treble bite",
+    "tonex_model": "Marshall Major/Plexi — bright",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Treble Booster — +8dB" },
+      { "slot": "amp_head", "device": "Marshall Plexi 1959" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "reverb", "device": "Room — mix 4%" }
+    ],
+    "notes": "Treble booster ajuda a cortar; controlar agudos para não ficar estridente."
+  },
+  "tone_santana_1": {
+    "band": "Santana",
+    "genre": "Latin Rock — lead quente",
+    "tonex_model": "Mesa/Boogie Mark I — smooth lead",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — leve" },
+      { "slot": "stomp_b", "device": "Overdrive — mid gain, tone fechado" },
+      { "slot": "amp_head", "device": "Mesa/Boogie Mark I" },
+      { "slot": "cabinet", "device": "1x12 / 4x12 mix (sim)" },
+      { "slot": "reverb", "device": "Plate — mix 10%" }
+    ],
+    "notes": "Captador do braço; médios ricos; evitar agudos excessivos."
+  },
+  "tone_gary_moore_1": {
+    "band": "Gary Moore",
+    "genre": "Blues Rock — lead singing",
+    "tonex_model": "Marshall JTM45 — lead boosted",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Overdrive — TS-style, drive baixo" },
+      { "slot": "stomp_b", "device": "Compressor — leve" },
+      { "slot": "amp_head", "device": "Marshall JTM45" },
+      { "slot": "cabinet", "device": "4x12 Greenbacks 25W" },
+      { "slot": "delay", "device": "Analog Delay — 360ms, feedback 22%, mix 12%" },
+      { "slot": "reverb", "device": "Plate — mix 8%" }
+    ],
+    "notes": "Humbucker no braço; vibrato expressivo; delay discreto."
+  },
+  "tone_bb_king_1": {
+    "band": "B.B. King",
+    "genre": "Blues — clean warm",
+    "tonex_model": "Fender Twin — clean quente",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — muito leve" },
+      { "slot": "amp_head", "device": "Fender Twin Reverb" },
+      { "slot": "cabinet", "device": "2x12 Jensen" },
+      { "slot": "rack_a", "device": "Parametric EQ — corte 4.5kHz -2dB, +1.5dB 800Hz" },
+      { "slot": "reverb", "device": "Spring — mix 16%" }
+    ],
+    "notes": "Som limpo e cheio; reverb de mola um pouco mais evidente; fraseado com dinâmica."
+  },
+  "tone_clapton_1": {
+    "band": "Eric Clapton",
+    "genre": "Blues — 'woman tone' (creamy)",
+    "tonex_model": "Marshall Bluesbreaker combo — mild breakup",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Overdrive — low gain" },
+      { "slot": "amp_head", "device": "Marshall Bluesbreaker" },
+      { "slot": "cabinet", "device": "2x12 Celestion (combo)" },
+      { "slot": "reverb", "device": "Room — mix 6%" }
+    ],
+    "notes": "Guitarra com tone fechado no captador do braço; drive moderado e médios."
+  },
+  "tone_rolling_stones_1": {
+    "band": "The Rolling Stones",
+    "genre": "Classic Rock — crunch twang",
+    "tonex_model": "Fender Tweed — crunchy",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — leve (opcional)" },
+      { "slot": "amp_head", "device": "Fender Tweed Deluxe" },
+      { "slot": "cabinet", "device": "1x12 Tweed speaker" },
+      { "slot": "reverb", "device": "Spring — mix 10%" }
+    ],
+    "notes": "Open G opcional; crunch baixo; ataque e groove são o principal."
+  },
+  "tone_blink_182_1": {
+    "band": "blink-182",
+    "genre": "Pop Punk — rhythm",
+    "tonex_model": "Mesa Dual Rectifier — punk rhythm",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — médio" },
+      { "slot": "stomp_b", "device": "Overdrive — boost leve" },
+      { "slot": "amp_head", "device": "Mesa Dual Rectifier" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Graphic EQ — HPF 90Hz, +2dB 1.6kHz" }
+    ],
+    "notes": "Power chords rápidos; pouco reverb; manter médios para não sumir na banda."
+  },
+  "tone_avenged_1": {
+    "band": "Avenged Sevenfold",
+    "genre": "Modern Metal — rhythm",
+    "tonex_model": "Peavey 5150 — modern",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Noise Gate — agressivo" },
+      { "slot": "stomp_b", "device": "Overdrive — TS-style tight" },
+      { "slot": "amp_head", "device": "Peavey 5150" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "rack_a", "device": "Parametric EQ — HPF 85Hz, corte 3.5kHz -1.5dB" }
+    ],
+    "notes": "Ataque definido; gate ajuda; ajustar presença para não ficar áspero."
+  },
+  "tone_avenged_2": {
+    "band": "Avenged Sevenfold",
+    "genre": "Modern Metal — lead",
+    "tonex_model": "Soldano SLO-100 — lead",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — leve" },
+      { "slot": "stomp_b", "device": "Overdrive — boost +4dB" },
+      { "slot": "amp_head", "device": "Soldano SLO-100" },
+      { "slot": "cabinet", "device": "4x12 V30" },
+      { "slot": "delay", "device": "Digital Delay — 380ms, feedback 25%, mix 14%" },
+      { "slot": "reverb", "device": "Hall — mix 10%" }
+    ],
+    "notes": "Delay/reverb para solo épico; médios para cantar; controle de ruído no muting."
+  },
+  "tone_polyphia_1": {
+    "band": "Polyphia",
+    "genre": "Modern — clean/compressed",
+    "tonex_model": "Clean boutique — headroom",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — forte (4:1), mix 75%" },
+      { "slot": "stomp_b", "device": "Chorus — micro, mix 10%" },
+      { "slot": "amp_head", "device": "Boutique Clean" },
+      { "slot": "cabinet", "device": "2x12 Clean cab" },
+      { "slot": "delay", "device": "Digital Delay — 1/8, feedback 18%, mix 12%" },
+      { "slot": "reverb", "device": "Plate — mix 10%" }
+    ],
+    "notes": "Compressão é a base; modulação mínima; tocar bem limpo para definição das notas."
+  },
+  "tone_math_rock_1": {
+    "band": "Math Rock",
+    "genre": "Clean — ataque e espaço",
+    "tonex_model": "Fender Deluxe Reverb — clean",
+    "amplitube5_chain": [
+      { "slot": "stomp_a", "device": "Compressor — ataque rápido, mix 60%" },
+      { "slot": "stomp_b", "device": "Digital Delay — 1/8 dotted, feedback 18%, mix 14%" },
+      { "slot": "amp_head", "device": "Fender Deluxe Reverb" },
+      { "slot": "cabinet", "device": "1x12 Jensen C12K" },
+      { "slot": "reverb", "device": "Spring — mix 16%" }
+    ],
+    "notes": "Tapping e arpejos beneficiam de compressor e delay leve; controlar graves para não sujar."
+  }
+}

@@ -1,0 +1,4428 @@
+{
+  "version": 1,
+  "scales": [
+    {
+      "id": "scale_ionian",
+      "name": "Ionian",
+      "namePt": "Jônio (escala maior)",
+      "family": "major",
+      "intervalsSemitones": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "intervalSymbols": [
+        "P1",
+        "M2",
+        "M3",
+        "P4",
+        "P5",
+        "M6",
+        "M7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "degreeCount": 7
+    },
+    {
+      "id": "scale_dorian",
+      "name": "Dorian",
+      "namePt": "Dórico",
+      "family": "mode_dorian",
+      "intervalsSemitones": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "intervalSymbols": [
+        "P1",
+        "M2",
+        "m3",
+        "P4",
+        "P5",
+        "M6",
+        "m7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "A",
+        "Bb"
+      ],
+      "degreeCount": 7
+    },
+    {
+      "id": "scale_phrygian",
+      "name": "Phrygian",
+      "namePt": "Frígio",
+      "family": "mode_phrygian",
+      "intervalsSemitones": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "intervalSymbols": [
+        "P1",
+        "m2",
+        "m3",
+        "P4",
+        "P5",
+        "m6",
+        "m7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "Db",
+        "Eb",
+        "F",
+        "G",
+        "Ab",
+        "Bb"
+      ],
+      "degreeCount": 7
+    },
+    {
+      "id": "scale_lydian",
+      "name": "Lydian",
+      "namePt": "Lídio",
+      "family": "mode_lydian",
+      "intervalsSemitones": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "intervalSymbols": [
+        "P1",
+        "M2",
+        "M3",
+        "A4",
+        "P5",
+        "M6",
+        "M7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "D",
+        "E",
+        "F#",
+        "G",
+        "A",
+        "B"
+      ],
+      "degreeCount": 7
+    },
+    {
+      "id": "scale_mixolydian",
+      "name": "Mixolydian",
+      "namePt": "Mixolídio",
+      "family": "mode_mixolydian",
+      "intervalsSemitones": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "intervalSymbols": [
+        "P1",
+        "M2",
+        "M3",
+        "P4",
+        "P5",
+        "M6",
+        "m7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "Bb"
+      ],
+      "degreeCount": 7
+    },
+    {
+      "id": "scale_aeolian",
+      "name": "Aeolian",
+      "namePt": "Eólio (menor natural)",
+      "family": "minor_natural",
+      "intervalsSemitones": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "intervalSymbols": [
+        "P1",
+        "M2",
+        "m3",
+        "P4",
+        "P5",
+        "m6",
+        "m7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "Ab",
+        "Bb"
+      ],
+      "degreeCount": 7
+    },
+    {
+      "id": "scale_locrian",
+      "name": "Locrian",
+      "namePt": "Lócrio",
+      "family": "mode_locrian",
+      "intervalsSemitones": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "intervalSymbols": [
+        "P1",
+        "m2",
+        "m3",
+        "P4",
+        "d5",
+        "m6",
+        "m7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "Db",
+        "Eb",
+        "F",
+        "Gb",
+        "Ab",
+        "Bb"
+      ],
+      "degreeCount": 7
+    },
+    {
+      "id": "scale_harmonic_minor",
+      "name": "Harmonic minor",
+      "namePt": "Menor harmônica",
+      "family": "minor_harmonic",
+      "intervalsSemitones": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "intervalSymbols": [
+        "P1",
+        "M2",
+        "m3",
+        "P4",
+        "P5",
+        "m6",
+        "M7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "Ab",
+        "B"
+      ],
+      "degreeCount": 7
+    },
+    {
+      "id": "scale_melodic_minor",
+      "name": "Melodic minor (jazz)",
+      "namePt": "Menor melódica (jazz)",
+      "family": "minor_melodic",
+      "intervalsSemitones": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "intervalSymbols": [
+        "P1",
+        "M2",
+        "m3",
+        "P4",
+        "P5",
+        "M6",
+        "M7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "D",
+        "Eb",
+        "F",
+        "G",
+        "A",
+        "B"
+      ],
+      "degreeCount": 7
+    },
+    {
+      "id": "scale_pent_major",
+      "name": "Major pentatonic",
+      "namePt": "Pentatônica maior",
+      "family": "pentatonic_major",
+      "intervalsSemitones": [
+        0,
+        2,
+        4,
+        7,
+        9
+      ],
+      "intervalSymbols": [
+        "P1",
+        "M2",
+        "M3",
+        "P5",
+        "M6"
+      ],
+      "notesWithRootC": [
+        "C",
+        "D",
+        "E",
+        "G",
+        "A"
+      ],
+      "degreeCount": 5
+    },
+    {
+      "id": "scale_pent_minor",
+      "name": "Minor pentatonic",
+      "namePt": "Pentatônica menor",
+      "family": "pentatonic_minor",
+      "intervalsSemitones": [
+        0,
+        3,
+        5,
+        7,
+        10
+      ],
+      "intervalSymbols": [
+        "P1",
+        "m3",
+        "P4",
+        "P5",
+        "m7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "Eb",
+        "F",
+        "G",
+        "Bb"
+      ],
+      "degreeCount": 5
+    },
+    {
+      "id": "scale_blues",
+      "name": "Blues",
+      "namePt": "Blues (hexatônica)",
+      "family": "blues",
+      "intervalsSemitones": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        10
+      ],
+      "intervalSymbols": [
+        "P1",
+        "m3",
+        "P4",
+        "TT",
+        "P5",
+        "m7"
+      ],
+      "notesWithRootC": [
+        "C",
+        "Eb",
+        "F",
+        "Gb",
+        "G",
+        "Bb"
+      ],
+      "degreeCount": 6
+    }
+  ],
+  "chords": [
+    {
+      "id": "chord_C",
+      "symbol": "C",
+      "namePt": "Dó maior",
+      "quality": "major",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0001",
+          "cagedForm": "C",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            2,
+            0,
+            1,
+            0
+          ],
+          "diagram": "x32010",
+          "fingers": [
+            0,
+            3,
+            2,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "voicing_0002",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 8,
+          "frets": [
+            8,
+            10,
+            10,
+            9,
+            8,
+            8
+          ],
+          "diagram": "8-10-10-9-8-8"
+        }
+      ]
+    },
+    {
+      "id": "chord_G",
+      "symbol": "G",
+      "namePt": "Sol maior",
+      "quality": "major",
+      "referenceKey": "G",
+      "voicings": [
+        {
+          "id": "voicing_0003",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            3
+          ],
+          "diagram": "320003"
+        },
+        {
+          "id": "voicing_0004",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            2,
+            0,
+            0,
+            3,
+            3
+          ],
+          "diagram": "320033"
+        }
+      ]
+    },
+    {
+      "id": "chord_D",
+      "symbol": "D",
+      "namePt": "Ré maior",
+      "quality": "major",
+      "referenceKey": "D",
+      "voicings": [
+        {
+          "id": "voicing_0005",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            -1,
+            0,
+            2,
+            3,
+            2
+          ],
+          "diagram": "xx0232"
+        },
+        {
+          "id": "voicing_0006",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            5,
+            5,
+            7,
+            7,
+            5
+          ],
+          "diagram": "x55775"
+        }
+      ]
+    },
+    {
+      "id": "chord_A",
+      "symbol": "A",
+      "namePt": "Lá maior",
+      "quality": "major",
+      "referenceKey": "A",
+      "voicings": [
+        {
+          "id": "voicing_0007",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          "diagram": "x02220"
+        },
+        {
+          "id": "voicing_0008",
+          "cagedForm": "E",
+          "bassString": 5,
+          "bassFret": 5,
+          "frets": [
+            5,
+            5,
+            7,
+            7,
+            7,
+            5
+          ],
+          "diagram": "557775"
+        }
+      ]
+    },
+    {
+      "id": "chord_E",
+      "symbol": "E",
+      "namePt": "Mi maior",
+      "quality": "major",
+      "referenceKey": "E",
+      "voicings": [
+        {
+          "id": "voicing_0009",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 0,
+          "frets": [
+            0,
+            2,
+            2,
+            1,
+            0,
+            0
+          ],
+          "diagram": "022100"
+        },
+        {
+          "id": "voicing_0010",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 9,
+          "frets": [
+            -1,
+            -1,
+            9,
+            9,
+            9,
+            12
+          ],
+          "diagram": "xx99912"
+        }
+      ]
+    },
+    {
+      "id": "chord_F",
+      "symbol": "F",
+      "namePt": "Fá maior",
+      "quality": "major",
+      "referenceKey": "F",
+      "voicings": [
+        {
+          "id": "voicing_0011",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 1,
+          "frets": [
+            1,
+            3,
+            3,
+            2,
+            1,
+            1
+          ],
+          "diagram": "133211"
+        },
+        {
+          "id": "voicing_0012",
+          "cagedForm": "D",
+          "bassString": 5,
+          "bassFret": 8,
+          "frets": [
+            -1,
+            8,
+            10,
+            10,
+            10,
+            8
+          ],
+          "diagram": "x8101098"
+        }
+      ]
+    },
+    {
+      "id": "chord_Bb",
+      "symbol": "Bb",
+      "namePt": "Si bemol maior",
+      "quality": "major",
+      "referenceKey": "Bb",
+      "voicings": [
+        {
+          "id": "voicing_0013",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 1,
+          "frets": [
+            -1,
+            1,
+            3,
+            3,
+            3,
+            1
+          ],
+          "diagram": "x13331"
+        },
+        {
+          "id": "voicing_0014",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 6,
+          "frets": [
+            6,
+            8,
+            8,
+            7,
+            6,
+            6
+          ],
+          "diagram": "688766"
+        }
+      ]
+    },
+    {
+      "id": "chord_B",
+      "symbol": "B",
+      "namePt": "Si maior",
+      "quality": "major",
+      "referenceKey": "B",
+      "voicings": [
+        {
+          "id": "voicing_0015",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 2,
+          "frets": [
+            -1,
+            2,
+            4,
+            4,
+            4,
+            2
+          ],
+          "diagram": "x24442"
+        },
+        {
+          "id": "voicing_0016",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 7,
+          "frets": [
+            7,
+            9,
+            9,
+            8,
+            7,
+            7
+          ],
+          "diagram": "799877"
+        }
+      ]
+    },
+    {
+      "id": "chord_Am",
+      "symbol": "Am",
+      "namePt": "Lá menor",
+      "quality": "minor",
+      "referenceKey": "A",
+      "voicings": [
+        {
+          "id": "voicing_0017",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "diagram": "x02210"
+        },
+        {
+          "id": "voicing_0018",
+          "cagedForm": "E",
+          "bassString": 5,
+          "bassFret": 5,
+          "frets": [
+            5,
+            5,
+            7,
+            7,
+            5,
+            5
+          ],
+          "diagram": "557755"
+        }
+      ]
+    },
+    {
+      "id": "chord_Em",
+      "symbol": "Em",
+      "namePt": "Mi menor",
+      "quality": "minor",
+      "referenceKey": "E",
+      "voicings": [
+        {
+          "id": "voicing_0019",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 0,
+          "frets": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            0
+          ],
+          "diagram": "022000"
+        },
+        {
+          "id": "voicing_0020",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 7,
+          "frets": [
+            -1,
+            -1,
+            9,
+            9,
+            8,
+            7
+          ],
+          "diagram": "xx9987"
+        }
+      ]
+    },
+    {
+      "id": "chord_Dm",
+      "symbol": "Dm",
+      "namePt": "Ré menor",
+      "quality": "minor",
+      "referenceKey": "D",
+      "voicings": [
+        {
+          "id": "voicing_0021",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            -1,
+            0,
+            2,
+            3,
+            1
+          ],
+          "diagram": "xx0231"
+        },
+        {
+          "id": "voicing_0022",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            5,
+            7,
+            7,
+            6,
+            5
+          ],
+          "diagram": "x57765"
+        }
+      ]
+    },
+    {
+      "id": "chord_Cm",
+      "symbol": "Cm",
+      "namePt": "Dó menor",
+      "quality": "minor",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0023",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            5,
+            5,
+            4,
+            3
+          ],
+          "diagram": "x35543"
+        },
+        {
+          "id": "voicing_0024",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 8,
+          "frets": [
+            8,
+            10,
+            10,
+            8,
+            8,
+            8
+          ],
+          "diagram": "8101088"
+        }
+      ]
+    },
+    {
+      "id": "chord_Gm",
+      "symbol": "Gm",
+      "namePt": "Sol menor",
+      "quality": "minor",
+      "referenceKey": "G",
+      "voicings": [
+        {
+          "id": "voicing_0025",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            5,
+            5,
+            3,
+            3,
+            3
+          ],
+          "diagram": "355333"
+        },
+        {
+          "id": "voicing_0026",
+          "cagedForm": "D",
+          "bassString": 5,
+          "bassFret": 10,
+          "frets": [
+            -1,
+            10,
+            12,
+            12,
+            11,
+            10
+          ],
+          "diagram": "x101211109"
+        }
+      ]
+    },
+    {
+      "id": "chord_Fm",
+      "symbol": "Fm",
+      "namePt": "Fá menor",
+      "quality": "minor",
+      "referenceKey": "F",
+      "voicings": [
+        {
+          "id": "voicing_0027",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 1,
+          "frets": [
+            1,
+            3,
+            3,
+            1,
+            1,
+            1
+          ],
+          "diagram": "133111"
+        },
+        {
+          "id": "voicing_0028",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 8,
+          "frets": [
+            -1,
+            8,
+            10,
+            10,
+            9,
+            8
+          ],
+          "diagram": "x8101098"
+        }
+      ]
+    },
+    {
+      "id": "chord_C7",
+      "symbol": "C7",
+      "namePt": "Dó com sétima",
+      "quality": "dominant7",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0029",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            2,
+            3,
+            1,
+            0
+          ],
+          "diagram": "x32310"
+        },
+        {
+          "id": "voicing_0030",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 8,
+          "frets": [
+            8,
+            10,
+            8,
+            9,
+            8,
+            8
+          ],
+          "diagram": "8108988"
+        }
+      ]
+    },
+    {
+      "id": "chord_G7",
+      "symbol": "G7",
+      "namePt": "Sol com sétima",
+      "quality": "dominant7",
+      "referenceKey": "G",
+      "voicings": [
+        {
+          "id": "voicing_0031",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "diagram": "320001"
+        },
+        {
+          "id": "voicing_0032",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            -1,
+            5,
+            4,
+            3,
+            3
+          ],
+          "diagram": "xx5433"
+        }
+      ]
+    },
+    {
+      "id": "chord_D7",
+      "symbol": "D7",
+      "namePt": "Ré com sétima",
+      "quality": "dominant7",
+      "referenceKey": "D",
+      "voicings": [
+        {
+          "id": "voicing_0033",
+          "cagedForm": "C",
+          "bassString": 4,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            5,
+            5,
+            5,
+            7,
+            5
+          ],
+          "diagram": "x55575"
+        },
+        {
+          "id": "voicing_0034",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            5,
+            7,
+            5,
+            7,
+            5
+          ],
+          "diagram": "x57575"
+        }
+      ]
+    },
+    {
+      "id": "chord_A7",
+      "symbol": "A7",
+      "namePt": "Lá com sétima",
+      "quality": "dominant7",
+      "referenceKey": "A",
+      "voicings": [
+        {
+          "id": "voicing_0035",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            0,
+            2,
+            0,
+            2,
+            0
+          ],
+          "diagram": "x02020"
+        },
+        {
+          "id": "voicing_0036",
+          "cagedForm": "E",
+          "bassString": 5,
+          "bassFret": 5,
+          "frets": [
+            5,
+            5,
+            7,
+            6,
+            7,
+            5
+          ],
+          "diagram": "557675"
+        }
+      ]
+    },
+    {
+      "id": "chord_E7",
+      "symbol": "E7",
+      "namePt": "Mi com sétima",
+      "quality": "dominant7",
+      "referenceKey": "E",
+      "voicings": [
+        {
+          "id": "voicing_0037",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 0,
+          "frets": [
+            0,
+            2,
+            0,
+            1,
+            0,
+            0
+          ],
+          "diagram": "020100"
+        },
+        {
+          "id": "voicing_0038",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 7,
+          "frets": [
+            -1,
+            7,
+            9,
+            7,
+            9,
+            7
+          ],
+          "diagram": "x79797"
+        }
+      ]
+    },
+    {
+      "id": "chord_B7",
+      "symbol": "B7",
+      "namePt": "Si com sétima",
+      "quality": "dominant7",
+      "referenceKey": "B",
+      "voicings": [
+        {
+          "id": "voicing_0039",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 2,
+          "frets": [
+            -1,
+            2,
+            1,
+            2,
+            0,
+            2
+          ],
+          "diagram": "x21202"
+        },
+        {
+          "id": "voicing_0040",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 7,
+          "frets": [
+            7,
+            9,
+            7,
+            8,
+            7,
+            7
+          ],
+          "diagram": "797877"
+        }
+      ]
+    },
+    {
+      "id": "chord_F7",
+      "symbol": "F7",
+      "namePt": "Fá com sétima",
+      "quality": "dominant7",
+      "referenceKey": "F",
+      "voicings": [
+        {
+          "id": "voicing_0041",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 1,
+          "frets": [
+            1,
+            3,
+            1,
+            2,
+            1,
+            1
+          ],
+          "diagram": "131211"
+        },
+        {
+          "id": "voicing_0042",
+          "cagedForm": "D",
+          "bassString": 5,
+          "bassFret": 8,
+          "frets": [
+            -1,
+            8,
+            10,
+            8,
+            10,
+            8
+          ],
+          "diagram": "x8108108"
+        }
+      ]
+    },
+    {
+      "id": "chord_Cmaj7",
+      "symbol": "Cmaj7",
+      "namePt": "Dó maior com sétima maior",
+      "quality": "major7",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0043",
+          "cagedForm": "C",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            2,
+            0,
+            0,
+            0
+          ],
+          "diagram": "x32000"
+        },
+        {
+          "id": "voicing_0044",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 8,
+          "frets": [
+            8,
+            10,
+            9,
+            9,
+            8,
+            7
+          ],
+          "diagram": "8109987"
+        }
+      ]
+    },
+    {
+      "id": "chord_Gmaj7",
+      "symbol": "Gmaj7",
+      "namePt": "Sol maior com sétima maior",
+      "quality": "major7",
+      "referenceKey": "G",
+      "voicings": [
+        {
+          "id": "voicing_0045",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          "diagram": "320002"
+        },
+        {
+          "id": "voicing_0046",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            5,
+            4,
+            4,
+            3,
+            3
+          ],
+          "diagram": "354433"
+        }
+      ]
+    },
+    {
+      "id": "chord_Dmaj7",
+      "symbol": "Dmaj7",
+      "namePt": "Ré maior com sétima maior",
+      "quality": "major7",
+      "referenceKey": "D",
+      "voicings": [
+        {
+          "id": "voicing_0047",
+          "cagedForm": "C",
+          "bassString": 4,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            5,
+            5,
+            5,
+            7,
+            7
+          ],
+          "diagram": "x55577"
+        },
+        {
+          "id": "voicing_0048",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            5,
+            7,
+            6,
+            7,
+            5
+          ],
+          "diagram": "x57675"
+        }
+      ]
+    },
+    {
+      "id": "chord_Amaj7",
+      "symbol": "Amaj7",
+      "namePt": "Lá maior com sétima maior",
+      "quality": "major7",
+      "referenceKey": "A",
+      "voicings": [
+        {
+          "id": "voicing_0049",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            0,
+            2,
+            1,
+            2,
+            0
+          ],
+          "diagram": "x02120"
+        },
+        {
+          "id": "voicing_0050",
+          "cagedForm": "G",
+          "bassString": 4,
+          "bassFret": 9,
+          "frets": [
+            -1,
+            -1,
+            11,
+            10,
+            9,
+            9
+          ],
+          "diagram": "xx111099"
+        }
+      ]
+    },
+    {
+      "id": "chord_Fmaj7",
+      "symbol": "Fmaj7",
+      "namePt": "Fá maior com sétima maior",
+      "quality": "major7",
+      "referenceKey": "F",
+      "voicings": [
+        {
+          "id": "voicing_0051",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 1,
+          "frets": [
+            1,
+            3,
+            2,
+            2,
+            1,
+            1
+          ],
+          "diagram": "132211"
+        },
+        {
+          "id": "voicing_0052",
+          "cagedForm": "D",
+          "bassString": 5,
+          "bassFret": 8,
+          "frets": [
+            -1,
+            8,
+            10,
+            9,
+            10,
+            8
+          ],
+          "diagram": "x8109108"
+        }
+      ]
+    },
+    {
+      "id": "chord_Am7",
+      "symbol": "Am7",
+      "namePt": "Lá menor com sétima",
+      "quality": "minor7",
+      "referenceKey": "A",
+      "voicings": [
+        {
+          "id": "voicing_0053",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          "diagram": "x02010"
+        },
+        {
+          "id": "voicing_0054",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            -1,
+            7,
+            5,
+            5,
+            5
+          ],
+          "diagram": "xx7555"
+        }
+      ]
+    },
+    {
+      "id": "chord_Dm7",
+      "symbol": "Dm7",
+      "namePt": "Ré menor com sétima",
+      "quality": "minor7",
+      "referenceKey": "D",
+      "voicings": [
+        {
+          "id": "voicing_0055",
+          "cagedForm": "A",
+          "bassString": 4,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            5,
+            5,
+            5,
+            6,
+            5
+          ],
+          "diagram": "x55565"
+        },
+        {
+          "id": "voicing_0056",
+          "cagedForm": "C",
+          "bassString": 4,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            5,
+            5,
+            5,
+            6,
+            5
+          ],
+          "diagram": "x55565"
+        }
+      ]
+    },
+    {
+      "id": "chord_Em7",
+      "symbol": "Em7",
+      "namePt": "Mi menor com sétima",
+      "quality": "minor7",
+      "referenceKey": "E",
+      "voicings": [
+        {
+          "id": "voicing_0057",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 0,
+          "frets": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "diagram": "020000"
+        },
+        {
+          "id": "voicing_0058",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 7,
+          "frets": [
+            -1,
+            7,
+            9,
+            7,
+            8,
+            7
+          ],
+          "diagram": "x79787"
+        }
+      ]
+    },
+    {
+      "id": "chord_Gm7",
+      "symbol": "Gm7",
+      "namePt": "Sol menor com sétima",
+      "quality": "minor7",
+      "referenceKey": "G",
+      "voicings": [
+        {
+          "id": "voicing_0059",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            5,
+            3,
+            3,
+            3,
+            3
+          ],
+          "diagram": "353333"
+        },
+        {
+          "id": "voicing_0060",
+          "cagedForm": "D",
+          "bassString": 5,
+          "bassFret": 10,
+          "frets": [
+            -1,
+            10,
+            12,
+            10,
+            11,
+            10
+          ],
+          "diagram": "x101210119"
+        }
+      ]
+    },
+    {
+      "id": "chord_Bm7",
+      "symbol": "Bm7",
+      "namePt": "Si menor com sétima",
+      "quality": "minor7",
+      "referenceKey": "B",
+      "voicings": [
+        {
+          "id": "voicing_0061",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 2,
+          "frets": [
+            -1,
+            2,
+            4,
+            2,
+            3,
+            2
+          ],
+          "diagram": "x24232"
+        },
+        {
+          "id": "voicing_0062",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 7,
+          "frets": [
+            7,
+            9,
+            7,
+            7,
+            7,
+            7
+          ],
+          "diagram": "797777"
+        }
+      ]
+    },
+    {
+      "id": "chord_Cm7",
+      "symbol": "Cm7",
+      "namePt": "Dó menor com sétima",
+      "quality": "minor7",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0063",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            5,
+            3,
+            4,
+            3
+          ],
+          "diagram": "x35343"
+        },
+        {
+          "id": "voicing_0064",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 8,
+          "frets": [
+            8,
+            10,
+            8,
+            8,
+            8,
+            8
+          ],
+          "diagram": "8108888"
+        }
+      ]
+    },
+    {
+      "id": "chord_Fm7",
+      "symbol": "Fm7",
+      "namePt": "Fá menor com sétima",
+      "quality": "minor7",
+      "referenceKey": "F",
+      "voicings": [
+        {
+          "id": "voicing_0065",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 1,
+          "frets": [
+            1,
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "diagram": "131111"
+        },
+        {
+          "id": "voicing_0066",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 8,
+          "frets": [
+            -1,
+            8,
+            10,
+            8,
+            9,
+            8
+          ],
+          "diagram": "x810898"
+        }
+      ]
+    },
+    {
+      "id": "chord_Bdim",
+      "symbol": "Bdim",
+      "namePt": "Si diminuto",
+      "quality": "diminished",
+      "referenceKey": "B",
+      "voicings": [
+        {
+          "id": "voicing_0067",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 2,
+          "frets": [
+            -1,
+            2,
+            3,
+            4,
+            3,
+            -1
+          ],
+          "diagram": "x2343x"
+        },
+        {
+          "id": "voicing_0068",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 4,
+          "frets": [
+            -1,
+            -1,
+            4,
+            5,
+            4,
+            5
+          ],
+          "diagram": "xx4545"
+        }
+      ]
+    },
+    {
+      "id": "chord_Fsharp_dim",
+      "symbol": "F#dim",
+      "namePt": "Fá sustenido diminuto",
+      "quality": "diminished",
+      "referenceKey": "F#",
+      "voicings": [
+        {
+          "id": "voicing_0069",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 2,
+          "frets": [
+            -1,
+            -1,
+            2,
+            3,
+            2,
+            3
+          ],
+          "diagram": "xx2323"
+        },
+        {
+          "id": "voicing_0070",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 9,
+          "frets": [
+            -1,
+            9,
+            10,
+            11,
+            10,
+            -1
+          ],
+          "diagram": "x9101110x"
+        }
+      ]
+    },
+    {
+      "id": "chord_Cdim",
+      "symbol": "Cdim",
+      "namePt": "Dó diminuto",
+      "quality": "diminished",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0071",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            4,
+            5,
+            4,
+            -1
+          ],
+          "diagram": "x3454x"
+        },
+        {
+          "id": "voicing_0072",
+          "cagedForm": "E",
+          "bassString": 4,
+          "bassFret": 8,
+          "frets": [
+            -1,
+            -1,
+            8,
+            9,
+            8,
+            9
+          ],
+          "diagram": "xx8989"
+        }
+      ]
+    },
+    {
+      "id": "chord_Caug",
+      "symbol": "Caug",
+      "namePt": "Dó aumentado",
+      "quality": "augmented",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0073",
+          "cagedForm": "G",
+          "bassString": 5,
+          "bassFret": 4,
+          "frets": [
+            -1,
+            -1,
+            5,
+            5,
+            5,
+            4
+          ],
+          "diagram": "xx5554"
+        },
+        {
+          "id": "voicing_0074",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            2,
+            1,
+            1,
+            0
+          ],
+          "diagram": "x32110"
+        }
+      ]
+    },
+    {
+      "id": "chord_Csus2",
+      "symbol": "Csus2",
+      "namePt": "Dó sus2",
+      "quality": "sus2",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0075",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            -1,
+            5,
+            5,
+            3,
+            3
+          ],
+          "diagram": "xx5533"
+        },
+        {
+          "id": "voicing_0076",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 8,
+          "frets": [
+            8,
+            10,
+            10,
+            10,
+            8,
+            8
+          ],
+          "diagram": "810101088"
+        }
+      ]
+    },
+    {
+      "id": "chord_Csus4",
+      "symbol": "Csus4",
+      "namePt": "Dó sus4",
+      "quality": "sus4",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0077",
+          "cagedForm": "G",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            3,
+            0,
+            1,
+            1
+          ],
+          "diagram": "x33011"
+        },
+        {
+          "id": "voicing_0078",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 8,
+          "frets": [
+            -1,
+            8,
+            10,
+            10,
+            11,
+            8
+          ],
+          "diagram": "x810118"
+        }
+      ]
+    },
+    {
+      "id": "chord_Gsus4",
+      "symbol": "Gsus4",
+      "namePt": "Sol sus4",
+      "quality": "sus4",
+      "referenceKey": "G",
+      "voicings": [
+        {
+          "id": "voicing_0079",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            2,
+            0,
+            0,
+            1,
+            3
+          ],
+          "diagram": "320013"
+        },
+        {
+          "id": "voicing_0080",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            -1,
+            5,
+            5,
+            8,
+            8
+          ],
+          "diagram": "xx5588"
+        }
+      ]
+    },
+    {
+      "id": "chord_Asus4",
+      "symbol": "Asus4",
+      "namePt": "Lá sus4",
+      "quality": "sus4",
+      "referenceKey": "A",
+      "voicings": [
+        {
+          "id": "voicing_0081",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            0,
+            2,
+            2,
+            3,
+            0
+          ],
+          "diagram": "x02230"
+        },
+        {
+          "id": "voicing_0082",
+          "cagedForm": "E",
+          "bassString": 5,
+          "bassFret": 5,
+          "frets": [
+            5,
+            5,
+            7,
+            7,
+            8,
+            5
+          ],
+          "diagram": "557785"
+        }
+      ]
+    },
+    {
+      "id": "chord_Dsus2",
+      "symbol": "Dsus2",
+      "namePt": "Ré sus2",
+      "quality": "sus2",
+      "referenceKey": "D",
+      "voicings": [
+        {
+          "id": "voicing_0083",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            -1,
+            0,
+            2,
+            3,
+            0
+          ],
+          "diagram": "xx0230"
+        },
+        {
+          "id": "voicing_0084",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            5,
+            7,
+            7,
+            5,
+            5
+          ],
+          "diagram": "x57755"
+        }
+      ]
+    },
+    {
+      "id": "chord_Dsus4",
+      "symbol": "Dsus4",
+      "namePt": "Ré sus4",
+      "quality": "sus4",
+      "referenceKey": "D",
+      "voicings": [
+        {
+          "id": "voicing_0085",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 0,
+          "frets": [
+            -1,
+            -1,
+            0,
+            2,
+            3,
+            3
+          ],
+          "diagram": "xx0233"
+        },
+        {
+          "id": "voicing_0086",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 5,
+          "frets": [
+            5,
+            5,
+            7,
+            7,
+            8,
+            5
+          ],
+          "diagram": "557785"
+        }
+      ]
+    },
+    {
+      "id": "chord_Cadd9",
+      "symbol": "Cadd9",
+      "namePt": "Dó add9",
+      "quality": "add9",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0087",
+          "cagedForm": "C",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            2,
+            0,
+            3,
+            0
+          ],
+          "diagram": "x32030"
+        },
+        {
+          "id": "voicing_0088",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 8,
+          "frets": [
+            8,
+            10,
+            10,
+            9,
+            10,
+            8
+          ],
+          "diagram": "810109108"
+        }
+      ]
+    },
+    {
+      "id": "chord_Gadd9",
+      "symbol": "Gadd9",
+      "namePt": "Sol add9",
+      "quality": "add9",
+      "referenceKey": "G",
+      "voicings": [
+        {
+          "id": "voicing_0089",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            2
+          ],
+          "diagram": "320002"
+        },
+        {
+          "id": "voicing_0090",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 10,
+          "frets": [
+            -1,
+            10,
+            9,
+            7,
+            7,
+            10
+          ],
+          "diagram": "x1097710"
+        }
+      ]
+    },
+    {
+      "id": "chord_Eadd9",
+      "symbol": "Eadd9",
+      "namePt": "Mi add9",
+      "quality": "add9",
+      "referenceKey": "E",
+      "voicings": [
+        {
+          "id": "voicing_0091",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 0,
+          "frets": [
+            0,
+            2,
+            4,
+            1,
+            0,
+            0
+          ],
+          "diagram": "024100"
+        },
+        {
+          "id": "voicing_0092",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 9,
+          "frets": [
+            -1,
+            -1,
+            9,
+            9,
+            9,
+            11
+          ],
+          "diagram": "xx99911"
+        }
+      ]
+    },
+    {
+      "id": "chord_C6",
+      "symbol": "C6",
+      "namePt": "Dó com sexta",
+      "quality": "sixth",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0093",
+          "cagedForm": "C",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            2,
+            2,
+            1,
+            0
+          ],
+          "diagram": "x32210"
+        },
+        {
+          "id": "voicing_0094",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 8,
+          "frets": [
+            -1,
+            8,
+            10,
+            9,
+            10,
+            8
+          ],
+          "diagram": "x8109108"
+        }
+      ]
+    },
+    {
+      "id": "chord_G6",
+      "symbol": "G6",
+      "namePt": "Sol com sexta",
+      "quality": "sixth",
+      "referenceKey": "G",
+      "voicings": [
+        {
+          "id": "voicing_0095",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "diagram": "320000"
+        },
+        {
+          "id": "voicing_0096",
+          "cagedForm": "D",
+          "bassString": 4,
+          "bassFret": 5,
+          "frets": [
+            -1,
+            -1,
+            5,
+            5,
+            5,
+            5
+          ],
+          "diagram": "xx5555"
+        }
+      ]
+    },
+    {
+      "id": "chord_C9",
+      "symbol": "C9",
+      "namePt": "Dó nona",
+      "quality": "ninth",
+      "referenceKey": "C",
+      "voicings": [
+        {
+          "id": "voicing_0097",
+          "cagedForm": "C",
+          "bassString": 5,
+          "bassFret": 3,
+          "frets": [
+            -1,
+            3,
+            2,
+            3,
+            3,
+            3
+          ],
+          "diagram": "x32333"
+        },
+        {
+          "id": "voicing_0098",
+          "cagedForm": "E",
+          "bassString": 6,
+          "bassFret": 8,
+          "frets": [
+            8,
+            10,
+            8,
+            9,
+            10,
+            8
+          ],
+          "diagram": "81089108"
+        }
+      ]
+    },
+    {
+      "id": "chord_G9",
+      "symbol": "G9",
+      "namePt": "Sol nona",
+      "quality": "ninth",
+      "referenceKey": "G",
+      "voicings": [
+        {
+          "id": "voicing_0099",
+          "cagedForm": "G",
+          "bassString": 6,
+          "bassFret": 3,
+          "frets": [
+            3,
+            2,
+            0,
+            2,
+            0,
+            1
+          ],
+          "diagram": "320201"
+        },
+        {
+          "id": "voicing_0100",
+          "cagedForm": "A",
+          "bassString": 5,
+          "bassFret": 10,
+          "frets": [
+            -1,
+            10,
+            9,
+            10,
+            10,
+            10
+          ],
+          "diagram": "x109101010"
+        }
+      ]
+    }
+  ],
+  "progressions": [
+    {
+      "id": "prog_001",
+      "name": "I–IV–V–I (rock clássico)",
+      "namePt": "I–IV–V–I (rock clássico)",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "F",
+        "G",
+        "C"
+      ],
+      "romanOrFunctions": "I IV V I",
+      "reference": "Base do rock e blues maior",
+      "difficulty": 2,
+      "tags": [
+        "rock",
+        "triades"
+      ]
+    },
+    {
+      "id": "prog_002",
+      "name": "I–IV–V–I (rock clássico)",
+      "namePt": "I–IV–V–I (rock clássico)",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "C",
+        "D",
+        "G"
+      ],
+      "romanOrFunctions": "I IV V I",
+      "reference": "Base do rock e blues maior",
+      "difficulty": 2,
+      "tags": [
+        "rock",
+        "triades"
+      ]
+    },
+    {
+      "id": "prog_003",
+      "name": "I–IV–V–I (rock clássico)",
+      "namePt": "I–IV–V–I (rock clássico)",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "D",
+        "E",
+        "A"
+      ],
+      "romanOrFunctions": "I IV V I",
+      "reference": "Base do rock e blues maior",
+      "difficulty": 2,
+      "tags": [
+        "rock",
+        "triades"
+      ]
+    },
+    {
+      "id": "prog_004",
+      "name": "I–IV–V–I (rock clássico)",
+      "namePt": "I–IV–V–I (rock clássico)",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "G",
+        "A",
+        "D"
+      ],
+      "romanOrFunctions": "I IV V I",
+      "reference": "Base do rock e blues maior",
+      "difficulty": 2,
+      "tags": [
+        "rock",
+        "triades"
+      ]
+    },
+    {
+      "id": "prog_005",
+      "name": "Axis progression",
+      "namePt": "Progressão Axis (I–V–vi–IV)",
+      "genre": "rock_blues",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "F"
+      ],
+      "romanOrFunctions": "I V vi IV",
+      "reference": "Muito comum em pop/rock",
+      "difficulty": 2,
+      "tags": [
+        "pop-rock",
+        "axis"
+      ]
+    },
+    {
+      "id": "prog_006",
+      "name": "Axis progression",
+      "namePt": "Progressão Axis (I–V–vi–IV)",
+      "genre": "rock_blues",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "D",
+        "Em",
+        "C"
+      ],
+      "romanOrFunctions": "I V vi IV",
+      "reference": "Muito comum em pop/rock",
+      "difficulty": 2,
+      "tags": [
+        "pop-rock",
+        "axis"
+      ]
+    },
+    {
+      "id": "prog_007",
+      "name": "Axis progression",
+      "namePt": "Progressão Axis (I–V–vi–IV)",
+      "genre": "rock_blues",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "E",
+        "F#m",
+        "D"
+      ],
+      "romanOrFunctions": "I V vi IV",
+      "reference": "Muito comum em pop/rock",
+      "difficulty": 2,
+      "tags": [
+        "pop-rock",
+        "axis"
+      ]
+    },
+    {
+      "id": "prog_008",
+      "name": "Axis progression",
+      "namePt": "Progressão Axis (I–V–vi–IV)",
+      "genre": "rock_blues",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "A",
+        "Bm",
+        "G"
+      ],
+      "romanOrFunctions": "I V vi IV",
+      "reference": "Muito comum em pop/rock",
+      "difficulty": 2,
+      "tags": [
+        "pop-rock",
+        "axis"
+      ]
+    },
+    {
+      "id": "prog_009",
+      "name": "vi–IV–I–V",
+      "namePt": "vi–IV–I–V (emo/pop rock)",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "Am",
+        "F",
+        "C",
+        "G"
+      ],
+      "romanOrFunctions": "vi IV I V",
+      "reference": "Progressão sensível / alternativa",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "emotional"
+      ]
+    },
+    {
+      "id": "prog_010",
+      "name": "vi–IV–I–V",
+      "namePt": "vi–IV–I–V (emo/pop rock)",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "Em",
+        "C",
+        "G",
+        "D"
+      ],
+      "romanOrFunctions": "vi IV I V",
+      "reference": "Progressão sensível / alternativa",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "emotional"
+      ]
+    },
+    {
+      "id": "prog_011",
+      "name": "vi–IV–I–V",
+      "namePt": "vi–IV–I–V (emo/pop rock)",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "F#m",
+        "D",
+        "A",
+        "E"
+      ],
+      "romanOrFunctions": "vi IV I V",
+      "reference": "Progressão sensível / alternativa",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "emotional"
+      ]
+    },
+    {
+      "id": "prog_012",
+      "name": "vi–IV–I–V",
+      "namePt": "vi–IV–I–V (emo/pop rock)",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "Bm",
+        "G",
+        "D",
+        "A"
+      ],
+      "romanOrFunctions": "vi IV I V",
+      "reference": "Progressão sensível / alternativa",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "emotional"
+      ]
+    },
+    {
+      "id": "prog_013",
+      "name": "I–bVII–IV (Mixolydian rock)",
+      "namePt": "I–bVII–IV (rock mixolídio)",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "Bb",
+        "F"
+      ],
+      "romanOrFunctions": "I bVII IV",
+      "reference": "Clássica em riffs de hard rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "mixolydian"
+      ]
+    },
+    {
+      "id": "prog_014",
+      "name": "I–bVII–IV (Mixolydian rock)",
+      "namePt": "I–bVII–IV (rock mixolídio)",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "F",
+        "C"
+      ],
+      "romanOrFunctions": "I bVII IV",
+      "reference": "Clássica em riffs de hard rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "mixolydian"
+      ]
+    },
+    {
+      "id": "prog_015",
+      "name": "I–bVII–IV (Mixolydian rock)",
+      "namePt": "I–bVII–IV (rock mixolídio)",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "G",
+        "D"
+      ],
+      "romanOrFunctions": "I bVII IV",
+      "reference": "Clássica em riffs de hard rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "mixolydian"
+      ]
+    },
+    {
+      "id": "prog_016",
+      "name": "I–bVII–IV (Mixolydian rock)",
+      "namePt": "I–bVII–IV (rock mixolídio)",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "C",
+        "G"
+      ],
+      "romanOrFunctions": "I bVII IV",
+      "reference": "Clássica em riffs de hard rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "mixolydian"
+      ]
+    },
+    {
+      "id": "prog_017",
+      "name": "I–bVII–I–IV",
+      "namePt": "I–bVII–I–IV",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "Bb",
+        "C",
+        "F"
+      ],
+      "romanOrFunctions": "I bVII I IV",
+      "reference": "Riff rock / southern rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "riff"
+      ]
+    },
+    {
+      "id": "prog_018",
+      "name": "I–bVII–I–IV",
+      "namePt": "I–bVII–I–IV",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "F",
+        "G",
+        "C"
+      ],
+      "romanOrFunctions": "I bVII I IV",
+      "reference": "Riff rock / southern rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "riff"
+      ]
+    },
+    {
+      "id": "prog_019",
+      "name": "I–bVII–I–IV",
+      "namePt": "I–bVII–I–IV",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "G",
+        "A",
+        "D"
+      ],
+      "romanOrFunctions": "I bVII I IV",
+      "reference": "Riff rock / southern rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "riff"
+      ]
+    },
+    {
+      "id": "prog_020",
+      "name": "I–bVII–I–IV",
+      "namePt": "I–bVII–I–IV",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "C",
+        "D",
+        "G"
+      ],
+      "romanOrFunctions": "I bVII I IV",
+      "reference": "Riff rock / southern rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "riff"
+      ]
+    },
+    {
+      "id": "prog_021",
+      "name": "I–IV–bVII–IV",
+      "namePt": "I–IV–bVII–IV",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "F",
+        "Bb",
+        "F"
+      ],
+      "romanOrFunctions": "I IV bVII IV",
+      "reference": "Cadência com modal interchange",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "borrowed"
+      ]
+    },
+    {
+      "id": "prog_022",
+      "name": "I–IV–bVII–IV",
+      "namePt": "I–IV–bVII–IV",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "C",
+        "F",
+        "C"
+      ],
+      "romanOrFunctions": "I IV bVII IV",
+      "reference": "Cadência com modal interchange",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "borrowed"
+      ]
+    },
+    {
+      "id": "prog_023",
+      "name": "I–IV–bVII–IV",
+      "namePt": "I–IV–bVII–IV",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "D",
+        "G",
+        "D"
+      ],
+      "romanOrFunctions": "I IV bVII IV",
+      "reference": "Cadência com modal interchange",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "borrowed"
+      ]
+    },
+    {
+      "id": "prog_024",
+      "name": "I–IV–bVII–IV",
+      "namePt": "I–IV–bVII–IV",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "G",
+        "C",
+        "G"
+      ],
+      "romanOrFunctions": "I IV bVII IV",
+      "reference": "Cadência com modal interchange",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "borrowed"
+      ]
+    },
+    {
+      "id": "prog_025",
+      "name": "I–V–IV–V",
+      "namePt": "I–V–IV–V",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "G",
+        "F",
+        "G"
+      ],
+      "romanOrFunctions": "I V IV V",
+      "reference": "Rock simples / punk",
+      "difficulty": 2,
+      "tags": [
+        "rock",
+        "punk"
+      ]
+    },
+    {
+      "id": "prog_026",
+      "name": "I–V–IV–V",
+      "namePt": "I–V–IV–V",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "D",
+        "C",
+        "D"
+      ],
+      "romanOrFunctions": "I V IV V",
+      "reference": "Rock simples / punk",
+      "difficulty": 2,
+      "tags": [
+        "rock",
+        "punk"
+      ]
+    },
+    {
+      "id": "prog_027",
+      "name": "I–V–IV–V",
+      "namePt": "I–V–IV–V",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "E",
+        "D",
+        "E"
+      ],
+      "romanOrFunctions": "I V IV V",
+      "reference": "Rock simples / punk",
+      "difficulty": 2,
+      "tags": [
+        "rock",
+        "punk"
+      ]
+    },
+    {
+      "id": "prog_028",
+      "name": "I–V–IV–V",
+      "namePt": "I–V–IV–V",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "A",
+        "G",
+        "A"
+      ],
+      "romanOrFunctions": "I V IV V",
+      "reference": "Rock simples / punk",
+      "difficulty": 2,
+      "tags": [
+        "rock",
+        "punk"
+      ]
+    },
+    {
+      "id": "prog_029",
+      "name": "IV–I–V–I",
+      "namePt": "IV–I–V–I",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "F",
+        "C",
+        "G",
+        "C"
+      ],
+      "romanOrFunctions": "IV I V I",
+      "reference": "Ênfase no subdominante",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_030",
+      "name": "IV–I–V–I",
+      "namePt": "IV–I–V–I",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "C",
+        "G",
+        "D",
+        "G"
+      ],
+      "romanOrFunctions": "IV I V I",
+      "reference": "Ênfase no subdominante",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_031",
+      "name": "IV–I–V–I",
+      "namePt": "IV–I–V–I",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "D",
+        "A",
+        "E",
+        "A"
+      ],
+      "romanOrFunctions": "IV I V I",
+      "reference": "Ênfase no subdominante",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_032",
+      "name": "IV–I–V–I",
+      "namePt": "IV–I–V–I",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "G",
+        "D",
+        "A",
+        "D"
+      ],
+      "romanOrFunctions": "IV I V I",
+      "reference": "Ênfase no subdominante",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_033",
+      "name": "V–IV–I (rock cadence)",
+      "namePt": "V–IV–I",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "G",
+        "F",
+        "C"
+      ],
+      "romanOrFunctions": "V IV I",
+      "reference": "Cadência plagal invertida / rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "cadence"
+      ]
+    },
+    {
+      "id": "prog_034",
+      "name": "V–IV–I (rock cadence)",
+      "namePt": "V–IV–I",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "D",
+        "C",
+        "G"
+      ],
+      "romanOrFunctions": "V IV I",
+      "reference": "Cadência plagal invertida / rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "cadence"
+      ]
+    },
+    {
+      "id": "prog_035",
+      "name": "V–IV–I (rock cadence)",
+      "namePt": "V–IV–I",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "E",
+        "D",
+        "A"
+      ],
+      "romanOrFunctions": "V IV I",
+      "reference": "Cadência plagal invertida / rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "cadence"
+      ]
+    },
+    {
+      "id": "prog_036",
+      "name": "V–IV–I (rock cadence)",
+      "namePt": "V–IV–I",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "A",
+        "G",
+        "D"
+      ],
+      "romanOrFunctions": "V IV I",
+      "reference": "Cadência plagal invertida / rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "cadence"
+      ]
+    },
+    {
+      "id": "prog_037",
+      "name": "I–vi–ii–V (turnaround)",
+      "namePt": "I–vi–ii–V (turnaround maior)",
+      "genre": "rock_blues",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "Am",
+        "Dm",
+        "G"
+      ],
+      "romanOrFunctions": "I vi ii V",
+      "reference": "Jazz / rockabilly / pop sofisticado",
+      "difficulty": 4,
+      "tags": [
+        "turnaround",
+        "jazz-rock"
+      ]
+    },
+    {
+      "id": "prog_038",
+      "name": "I–vi–ii–V (turnaround)",
+      "namePt": "I–vi–ii–V (turnaround maior)",
+      "genre": "rock_blues",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "Em",
+        "Am",
+        "D"
+      ],
+      "romanOrFunctions": "I vi ii V",
+      "reference": "Jazz / rockabilly / pop sofisticado",
+      "difficulty": 4,
+      "tags": [
+        "turnaround",
+        "jazz-rock"
+      ]
+    },
+    {
+      "id": "prog_039",
+      "name": "I–vi–ii–V (turnaround)",
+      "namePt": "I–vi–ii–V (turnaround maior)",
+      "genre": "rock_blues",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "F#m",
+        "Bm",
+        "E"
+      ],
+      "romanOrFunctions": "I vi ii V",
+      "reference": "Jazz / rockabilly / pop sofisticado",
+      "difficulty": 4,
+      "tags": [
+        "turnaround",
+        "jazz-rock"
+      ]
+    },
+    {
+      "id": "prog_040",
+      "name": "I–vi–ii–V (turnaround)",
+      "namePt": "I–vi–ii–V (turnaround maior)",
+      "genre": "rock_blues",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "Bm",
+        "Em",
+        "A"
+      ],
+      "romanOrFunctions": "I vi ii V",
+      "reference": "Jazz / rockabilly / pop sofisticado",
+      "difficulty": 4,
+      "tags": [
+        "turnaround",
+        "jazz-rock"
+      ]
+    },
+    {
+      "id": "prog_041",
+      "name": "ii–V–I",
+      "namePt": "ii–V–I",
+      "genre": "rock_blues",
+      "keyExample": "C",
+      "chords": [
+        "Dm",
+        "G",
+        "C"
+      ],
+      "romanOrFunctions": "ii V I",
+      "reference": "Cadência jazz aplicada ao rock",
+      "difficulty": 4,
+      "tags": [
+        "jazz",
+        "cadence"
+      ]
+    },
+    {
+      "id": "prog_042",
+      "name": "ii–V–I",
+      "namePt": "ii–V–I",
+      "genre": "rock_blues",
+      "keyExample": "G",
+      "chords": [
+        "Am",
+        "D",
+        "G"
+      ],
+      "romanOrFunctions": "ii V I",
+      "reference": "Cadência jazz aplicada ao rock",
+      "difficulty": 4,
+      "tags": [
+        "jazz",
+        "cadence"
+      ]
+    },
+    {
+      "id": "prog_043",
+      "name": "ii–V–I",
+      "namePt": "ii–V–I",
+      "genre": "rock_blues",
+      "keyExample": "A",
+      "chords": [
+        "Bm",
+        "E",
+        "A"
+      ],
+      "romanOrFunctions": "ii V I",
+      "reference": "Cadência jazz aplicada ao rock",
+      "difficulty": 4,
+      "tags": [
+        "jazz",
+        "cadence"
+      ]
+    },
+    {
+      "id": "prog_044",
+      "name": "ii–V–I",
+      "namePt": "ii–V–I",
+      "genre": "rock_blues",
+      "keyExample": "D",
+      "chords": [
+        "Em",
+        "A",
+        "D"
+      ],
+      "romanOrFunctions": "ii V I",
+      "reference": "Cadência jazz aplicada ao rock",
+      "difficulty": 4,
+      "tags": [
+        "jazz",
+        "cadence"
+      ]
+    },
+    {
+      "id": "prog_045",
+      "name": "I–IV–V7–I",
+      "namePt": "I–IV–V7–I (blues rock maior)",
+      "genre": "rock_blues",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "F",
+        "G7",
+        "C"
+      ],
+      "romanOrFunctions": "I IV V7 I",
+      "reference": "Blues maior / rock and roll",
+      "difficulty": 2,
+      "tags": [
+        "blues-rock",
+        "dominant"
+      ]
+    },
+    {
+      "id": "prog_046",
+      "name": "I–IV–V7–I",
+      "namePt": "I–IV–V7–I (blues rock maior)",
+      "genre": "rock_blues",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "C",
+        "D7",
+        "G"
+      ],
+      "romanOrFunctions": "I IV V7 I",
+      "reference": "Blues maior / rock and roll",
+      "difficulty": 2,
+      "tags": [
+        "blues-rock",
+        "dominant"
+      ]
+    },
+    {
+      "id": "prog_047",
+      "name": "I–IV–V7–I",
+      "namePt": "I–IV–V7–I (blues rock maior)",
+      "genre": "rock_blues",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "D",
+        "E7",
+        "A"
+      ],
+      "romanOrFunctions": "I IV V7 I",
+      "reference": "Blues maior / rock and roll",
+      "difficulty": 2,
+      "tags": [
+        "blues-rock",
+        "dominant"
+      ]
+    },
+    {
+      "id": "prog_048",
+      "name": "I–IV–V7–I",
+      "namePt": "I–IV–V7–I (blues rock maior)",
+      "genre": "rock_blues",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "G",
+        "A7",
+        "D"
+      ],
+      "romanOrFunctions": "I IV V7 I",
+      "reference": "Blues maior / rock and roll",
+      "difficulty": 2,
+      "tags": [
+        "blues-rock",
+        "dominant"
+      ]
+    },
+    {
+      "id": "prog_049",
+      "name": "I–IV–I–V",
+      "namePt": "I–IV–I–V",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "F",
+        "C",
+        "G"
+      ],
+      "romanOrFunctions": "I IV I V",
+      "reference": "Rock clássico em 4 acordes",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_050",
+      "name": "I–IV–I–V",
+      "namePt": "I–IV–I–V",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "C",
+        "G",
+        "D"
+      ],
+      "romanOrFunctions": "I IV I V",
+      "reference": "Rock clássico em 4 acordes",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_051",
+      "name": "I–IV–I–V",
+      "namePt": "I–IV–I–V",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "D",
+        "A",
+        "E"
+      ],
+      "romanOrFunctions": "I IV I V",
+      "reference": "Rock clássico em 4 acordes",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_052",
+      "name": "I–IV–I–V",
+      "namePt": "I–IV–I–V",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "G",
+        "D",
+        "A"
+      ],
+      "romanOrFunctions": "I IV I V",
+      "reference": "Rock clássico em 4 acordes",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_053",
+      "name": "I–iii–IV–V",
+      "namePt": "I–iii–IV–V",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "Em",
+        "F",
+        "G"
+      ],
+      "romanOrFunctions": "I iii IV V",
+      "reference": "Variação com mediana",
+      "difficulty": 3,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_054",
+      "name": "I–iii–IV–V",
+      "namePt": "I–iii–IV–V",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "Bm",
+        "C",
+        "D"
+      ],
+      "romanOrFunctions": "I iii IV V",
+      "reference": "Variação com mediana",
+      "difficulty": 3,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_055",
+      "name": "I–iii–IV–V",
+      "namePt": "I–iii–IV–V",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "C#m",
+        "D",
+        "E"
+      ],
+      "romanOrFunctions": "I iii IV V",
+      "reference": "Variação com mediana",
+      "difficulty": 3,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_056",
+      "name": "I–iii–IV–V",
+      "namePt": "I–iii–IV–V",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "F#m",
+        "G",
+        "A"
+      ],
+      "romanOrFunctions": "I iii IV V",
+      "reference": "Variação com mediana",
+      "difficulty": 3,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_057",
+      "name": "I–vi–IV–V (doo-wop)",
+      "namePt": "I–vi–IV–V (doo-wop / oldies)",
+      "genre": "rock_blues",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "Am",
+        "F",
+        "G"
+      ],
+      "romanOrFunctions": "I vi IV V",
+      "reference": "Base do rock dos anos 50–60",
+      "difficulty": 2,
+      "tags": [
+        "oldies",
+        "doo-wop"
+      ]
+    },
+    {
+      "id": "prog_058",
+      "name": "I–vi–IV–V (doo-wop)",
+      "namePt": "I–vi–IV–V (doo-wop / oldies)",
+      "genre": "rock_blues",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "Em",
+        "C",
+        "D"
+      ],
+      "romanOrFunctions": "I vi IV V",
+      "reference": "Base do rock dos anos 50–60",
+      "difficulty": 2,
+      "tags": [
+        "oldies",
+        "doo-wop"
+      ]
+    },
+    {
+      "id": "prog_059",
+      "name": "I–vi–IV–V (doo-wop)",
+      "namePt": "I–vi–IV–V (doo-wop / oldies)",
+      "genre": "rock_blues",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "F#m",
+        "D",
+        "E"
+      ],
+      "romanOrFunctions": "I vi IV V",
+      "reference": "Base do rock dos anos 50–60",
+      "difficulty": 2,
+      "tags": [
+        "oldies",
+        "doo-wop"
+      ]
+    },
+    {
+      "id": "prog_060",
+      "name": "I–vi–IV–V (doo-wop)",
+      "namePt": "I–vi–IV–V (doo-wop / oldies)",
+      "genre": "rock_blues",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "Bm",
+        "G",
+        "A"
+      ],
+      "romanOrFunctions": "I vi IV V",
+      "reference": "Base do rock dos anos 50–60",
+      "difficulty": 2,
+      "tags": [
+        "oldies",
+        "doo-wop"
+      ]
+    },
+    {
+      "id": "prog_061",
+      "name": "I–bVI–bVII–I",
+      "namePt": "I–bVI–bVII–I (rock épico)",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "Ab",
+        "Bb",
+        "C"
+      ],
+      "romanOrFunctions": "I bVI bVII I",
+      "reference": "Intercâmbio modal / arena rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "epic"
+      ]
+    },
+    {
+      "id": "prog_062",
+      "name": "I–bVI–bVII–I",
+      "namePt": "I–bVI–bVII–I (rock épico)",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "Eb",
+        "F",
+        "G"
+      ],
+      "romanOrFunctions": "I bVI bVII I",
+      "reference": "Intercâmbio modal / arena rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "epic"
+      ]
+    },
+    {
+      "id": "prog_063",
+      "name": "I–bVI–bVII–I",
+      "namePt": "I–bVI–bVII–I (rock épico)",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "F",
+        "G",
+        "A"
+      ],
+      "romanOrFunctions": "I bVI bVII I",
+      "reference": "Intercâmbio modal / arena rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "epic"
+      ]
+    },
+    {
+      "id": "prog_064",
+      "name": "I–bVI–bVII–I",
+      "namePt": "I–bVI–bVII–I (rock épico)",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "Bb",
+        "C",
+        "D"
+      ],
+      "romanOrFunctions": "I bVI bVII I",
+      "reference": "Intercâmbio modal / arena rock",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "epic"
+      ]
+    },
+    {
+      "id": "prog_065",
+      "name": "I–IV–bVI–V",
+      "namePt": "I–IV–bVI–V",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "F",
+        "Ab",
+        "G"
+      ],
+      "romanOrFunctions": "I IV bVI V",
+      "reference": "Pop rock com submediante bemol",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "borrowed"
+      ]
+    },
+    {
+      "id": "prog_066",
+      "name": "I–IV–bVI–V",
+      "namePt": "I–IV–bVI–V",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "C",
+        "Eb",
+        "D"
+      ],
+      "romanOrFunctions": "I IV bVI V",
+      "reference": "Pop rock com submediante bemol",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "borrowed"
+      ]
+    },
+    {
+      "id": "prog_067",
+      "name": "I–IV–bVI–V",
+      "namePt": "I–IV–bVI–V",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "D",
+        "F",
+        "E"
+      ],
+      "romanOrFunctions": "I IV bVI V",
+      "reference": "Pop rock com submediante bemol",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "borrowed"
+      ]
+    },
+    {
+      "id": "prog_068",
+      "name": "I–IV–bVI–V",
+      "namePt": "I–IV–bVI–V",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "G",
+        "Bb",
+        "A"
+      ],
+      "romanOrFunctions": "I IV bVI V",
+      "reference": "Pop rock com submediante bemol",
+      "difficulty": 3,
+      "tags": [
+        "rock",
+        "borrowed"
+      ]
+    },
+    {
+      "id": "prog_069",
+      "name": "I–V–vi–iii–IV–I–IV–V (canon pop)",
+      "namePt": "I–V–vi–iii–IV–I–IV–V (canon pop)",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "G",
+        "Am",
+        "Em",
+        "F",
+        "C",
+        "F",
+        "G"
+      ],
+      "romanOrFunctions": "I V vi iii IV I IV V",
+      "reference": "Padrão harmônico muito usado em hits",
+      "difficulty": 4,
+      "tags": [
+        "pop",
+        "progression"
+      ]
+    },
+    {
+      "id": "prog_070",
+      "name": "I–V–vi–iii–IV–I–IV–V (canon pop)",
+      "namePt": "I–V–vi–iii–IV–I–IV–V (canon pop)",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "D",
+        "Em",
+        "Bm",
+        "C",
+        "G",
+        "C",
+        "D"
+      ],
+      "romanOrFunctions": "I V vi iii IV I IV V",
+      "reference": "Padrão harmônico muito usado em hits",
+      "difficulty": 4,
+      "tags": [
+        "pop",
+        "progression"
+      ]
+    },
+    {
+      "id": "prog_071",
+      "name": "I–V–vi–iii–IV–I–IV–V (canon pop)",
+      "namePt": "I–V–vi–iii–IV–I–IV–V (canon pop)",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "E",
+        "F#m",
+        "C#m",
+        "D",
+        "A",
+        "D",
+        "E"
+      ],
+      "romanOrFunctions": "I V vi iii IV I IV V",
+      "reference": "Padrão harmônico muito usado em hits",
+      "difficulty": 4,
+      "tags": [
+        "pop",
+        "progression"
+      ]
+    },
+    {
+      "id": "prog_072",
+      "name": "I–V–vi–iii–IV–I–IV–V (canon pop)",
+      "namePt": "I–V–vi–iii–IV–I–IV–V (canon pop)",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "A",
+        "Bm",
+        "F#m",
+        "G",
+        "D",
+        "G",
+        "A"
+      ],
+      "romanOrFunctions": "I V vi iii IV I IV V",
+      "reference": "Padrão harmônico muito usado em hits",
+      "difficulty": 4,
+      "tags": [
+        "pop",
+        "progression"
+      ]
+    },
+    {
+      "id": "prog_073",
+      "name": "I–ii–IV–V",
+      "namePt": "I–ii–IV–V",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "Dm",
+        "F",
+        "G"
+      ],
+      "romanOrFunctions": "I ii IV V",
+      "reference": "Rock com acorde II menor",
+      "difficulty": 3,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_074",
+      "name": "I–ii–IV–V",
+      "namePt": "I–ii–IV–V",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "Am",
+        "C",
+        "D"
+      ],
+      "romanOrFunctions": "I ii IV V",
+      "reference": "Rock com acorde II menor",
+      "difficulty": 3,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_075",
+      "name": "I–ii–IV–V",
+      "namePt": "I–ii–IV–V",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "Bm",
+        "D",
+        "E"
+      ],
+      "romanOrFunctions": "I ii IV V",
+      "reference": "Rock com acorde II menor",
+      "difficulty": 3,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_076",
+      "name": "I–ii–IV–V",
+      "namePt": "I–ii–IV–V",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "Em",
+        "G",
+        "A"
+      ],
+      "romanOrFunctions": "I ii IV V",
+      "reference": "Rock com acorde II menor",
+      "difficulty": 3,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_077",
+      "name": "I–IV–vi–V",
+      "namePt": "I–IV–vi–V",
+      "genre": "rock",
+      "keyExample": "C",
+      "chords": [
+        "C",
+        "F",
+        "Am",
+        "G"
+      ],
+      "romanOrFunctions": "I IV vi V",
+      "reference": "Variação do eixo harmônico",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_078",
+      "name": "I–IV–vi–V",
+      "namePt": "I–IV–vi–V",
+      "genre": "rock",
+      "keyExample": "G",
+      "chords": [
+        "G",
+        "C",
+        "Em",
+        "D"
+      ],
+      "romanOrFunctions": "I IV vi V",
+      "reference": "Variação do eixo harmônico",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_079",
+      "name": "I–IV–vi–V",
+      "namePt": "I–IV–vi–V",
+      "genre": "rock",
+      "keyExample": "A",
+      "chords": [
+        "A",
+        "D",
+        "F#m",
+        "E"
+      ],
+      "romanOrFunctions": "I IV vi V",
+      "reference": "Variação do eixo harmônico",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_080",
+      "name": "I–IV–vi–V",
+      "namePt": "I–IV–vi–V",
+      "genre": "rock",
+      "keyExample": "D",
+      "chords": [
+        "D",
+        "G",
+        "Bm",
+        "A"
+      ],
+      "romanOrFunctions": "I IV vi V",
+      "reference": "Variação do eixo harmônico",
+      "difficulty": 2,
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "prog_081",
+      "name": "12-bar blues (quick IV)",
+      "namePt": "Blues de 12 compassos (quick IV)",
+      "genre": "blues",
+      "keyExample": "C",
+      "chords": [
+        "C7",
+        "C7",
+        "C7",
+        "C7",
+        "F7",
+        "F7",
+        "C7",
+        "C7",
+        "G7",
+        "F7",
+        "C7",
+        "G7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 I7 I7 V7 IV7 I7 V7",
+      "reference": "Chicago / Texas blues",
+      "difficulty": 3,
+      "tags": [
+        "12-bar",
+        "blues",
+        "dominant"
+      ]
+    },
+    {
+      "id": "prog_082",
+      "name": "12-bar blues (quick IV)",
+      "namePt": "Blues de 12 compassos (quick IV)",
+      "genre": "blues",
+      "keyExample": "G",
+      "chords": [
+        "G7",
+        "G7",
+        "G7",
+        "G7",
+        "C7",
+        "C7",
+        "G7",
+        "G7",
+        "D7",
+        "C7",
+        "G7",
+        "D7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 I7 I7 V7 IV7 I7 V7",
+      "reference": "Chicago / Texas blues",
+      "difficulty": 3,
+      "tags": [
+        "12-bar",
+        "blues",
+        "dominant"
+      ]
+    },
+    {
+      "id": "prog_083",
+      "name": "12-bar blues (quick IV)",
+      "namePt": "Blues de 12 compassos (quick IV)",
+      "genre": "blues",
+      "keyExample": "A",
+      "chords": [
+        "A7",
+        "A7",
+        "A7",
+        "A7",
+        "D7",
+        "D7",
+        "A7",
+        "A7",
+        "E7",
+        "D7",
+        "A7",
+        "E7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 I7 I7 V7 IV7 I7 V7",
+      "reference": "Chicago / Texas blues",
+      "difficulty": 3,
+      "tags": [
+        "12-bar",
+        "blues",
+        "dominant"
+      ]
+    },
+    {
+      "id": "prog_084",
+      "name": "12-bar blues (quick IV)",
+      "namePt": "Blues de 12 compassos (quick IV)",
+      "genre": "blues",
+      "keyExample": "D",
+      "chords": [
+        "D7",
+        "D7",
+        "D7",
+        "D7",
+        "G7",
+        "G7",
+        "D7",
+        "D7",
+        "A7",
+        "G7",
+        "D7",
+        "A7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 I7 I7 V7 IV7 I7 V7",
+      "reference": "Chicago / Texas blues",
+      "difficulty": 3,
+      "tags": [
+        "12-bar",
+        "blues",
+        "dominant"
+      ]
+    },
+    {
+      "id": "prog_085",
+      "name": "12-bar blues (slow IV)",
+      "namePt": "Blues de 12 compassos (IV lento)",
+      "genre": "blues",
+      "keyExample": "C",
+      "chords": [
+        "C7",
+        "C7",
+        "C7",
+        "C7",
+        "F7",
+        "F7",
+        "C7",
+        "C7",
+        "G7",
+        "G7",
+        "C7",
+        "C7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 I7 I7 V7 V7 I7 I7",
+      "reference": "Variação com mais tempo no V7",
+      "difficulty": 3,
+      "tags": [
+        "12-bar",
+        "blues"
+      ]
+    },
+    {
+      "id": "prog_086",
+      "name": "12-bar blues (slow IV)",
+      "namePt": "Blues de 12 compassos (IV lento)",
+      "genre": "blues",
+      "keyExample": "G",
+      "chords": [
+        "G7",
+        "G7",
+        "G7",
+        "G7",
+        "C7",
+        "C7",
+        "G7",
+        "G7",
+        "D7",
+        "D7",
+        "G7",
+        "G7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 I7 I7 V7 V7 I7 I7",
+      "reference": "Variação com mais tempo no V7",
+      "difficulty": 3,
+      "tags": [
+        "12-bar",
+        "blues"
+      ]
+    },
+    {
+      "id": "prog_087",
+      "name": "12-bar blues (slow IV)",
+      "namePt": "Blues de 12 compassos (IV lento)",
+      "genre": "blues",
+      "keyExample": "A",
+      "chords": [
+        "A7",
+        "A7",
+        "A7",
+        "A7",
+        "D7",
+        "D7",
+        "A7",
+        "A7",
+        "E7",
+        "E7",
+        "A7",
+        "A7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 I7 I7 V7 V7 I7 I7",
+      "reference": "Variação com mais tempo no V7",
+      "difficulty": 3,
+      "tags": [
+        "12-bar",
+        "blues"
+      ]
+    },
+    {
+      "id": "prog_088",
+      "name": "12-bar blues (slow IV)",
+      "namePt": "Blues de 12 compassos (IV lento)",
+      "genre": "blues",
+      "keyExample": "D",
+      "chords": [
+        "D7",
+        "D7",
+        "D7",
+        "D7",
+        "G7",
+        "G7",
+        "D7",
+        "D7",
+        "A7",
+        "A7",
+        "D7",
+        "D7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 I7 I7 V7 V7 I7 I7",
+      "reference": "Variação com mais tempo no V7",
+      "difficulty": 3,
+      "tags": [
+        "12-bar",
+        "blues"
+      ]
+    },
+    {
+      "id": "prog_089",
+      "name": "8-bar blues (V–IV–I)",
+      "namePt": "Blues de 8 compassos (típico)",
+      "genre": "blues",
+      "keyExample": "C",
+      "chords": [
+        "C7",
+        "C7",
+        "C7",
+        "C7",
+        "F7",
+        "F7",
+        "G7",
+        "F7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 V7 IV7",
+      "reference": "Blues de 8 compassos",
+      "difficulty": 3,
+      "tags": [
+        "8-bar",
+        "blues"
+      ]
+    },
+    {
+      "id": "prog_090",
+      "name": "8-bar blues (V–IV–I)",
+      "namePt": "Blues de 8 compassos (típico)",
+      "genre": "blues",
+      "keyExample": "G",
+      "chords": [
+        "G7",
+        "G7",
+        "G7",
+        "G7",
+        "C7",
+        "C7",
+        "D7",
+        "C7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 V7 IV7",
+      "reference": "Blues de 8 compassos",
+      "difficulty": 3,
+      "tags": [
+        "8-bar",
+        "blues"
+      ]
+    },
+    {
+      "id": "prog_091",
+      "name": "8-bar blues (V–IV–I)",
+      "namePt": "Blues de 8 compassos (típico)",
+      "genre": "blues",
+      "keyExample": "A",
+      "chords": [
+        "A7",
+        "A7",
+        "A7",
+        "A7",
+        "D7",
+        "D7",
+        "E7",
+        "D7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 V7 IV7",
+      "reference": "Blues de 8 compassos",
+      "difficulty": 3,
+      "tags": [
+        "8-bar",
+        "blues"
+      ]
+    },
+    {
+      "id": "prog_092",
+      "name": "8-bar blues (V–IV–I)",
+      "namePt": "Blues de 8 compassos (típico)",
+      "genre": "blues",
+      "keyExample": "D",
+      "chords": [
+        "D7",
+        "D7",
+        "D7",
+        "D7",
+        "G7",
+        "G7",
+        "A7",
+        "G7"
+      ],
+      "romanOrFunctions": "I7 I7 I7 I7 IV7 IV7 V7 IV7",
+      "reference": "Blues de 8 compassos",
+      "difficulty": 3,
+      "tags": [
+        "8-bar",
+        "blues"
+      ]
+    },
+    {
+      "id": "prog_093",
+      "name": "Shuffle I7–IV7–I7–V7",
+      "namePt": "Shuffle I7–IV7–I7–V7",
+      "genre": "blues",
+      "keyExample": "C",
+      "chords": [
+        "C7",
+        "F7",
+        "C7",
+        "G7"
+      ],
+      "romanOrFunctions": "I7 IV7 I7 V7",
+      "reference": "Blues shuffle de 4 acordes",
+      "difficulty": 2,
+      "tags": [
+        "blues",
+        "shuffle"
+      ]
+    },
+    {
+      "id": "prog_094",
+      "name": "Shuffle I7–IV7–I7–V7",
+      "namePt": "Shuffle I7–IV7–I7–V7",
+      "genre": "blues",
+      "keyExample": "G",
+      "chords": [
+        "G7",
+        "C7",
+        "G7",
+        "D7"
+      ],
+      "romanOrFunctions": "I7 IV7 I7 V7",
+      "reference": "Blues shuffle de 4 acordes",
+      "difficulty": 2,
+      "tags": [
+        "blues",
+        "shuffle"
+      ]
+    },
+    {
+      "id": "prog_095",
+      "name": "Shuffle I7–IV7–I7–V7",
+      "namePt": "Shuffle I7–IV7–I7–V7",
+      "genre": "blues",
+      "keyExample": "A",
+      "chords": [
+        "A7",
+        "D7",
+        "A7",
+        "E7"
+      ],
+      "romanOrFunctions": "I7 IV7 I7 V7",
+      "reference": "Blues shuffle de 4 acordes",
+      "difficulty": 2,
+      "tags": [
+        "blues",
+        "shuffle"
+      ]
+    },
+    {
+      "id": "prog_096",
+      "name": "Shuffle I7–IV7–I7–V7",
+      "namePt": "Shuffle I7–IV7–I7–V7",
+      "genre": "blues",
+      "keyExample": "D",
+      "chords": [
+        "D7",
+        "G7",
+        "D7",
+        "A7"
+      ],
+      "romanOrFunctions": "I7 IV7 I7 V7",
+      "reference": "Blues shuffle de 4 acordes",
+      "difficulty": 2,
+      "tags": [
+        "blues",
+        "shuffle"
+      ]
+    },
+    {
+      "id": "prog_097",
+      "name": "Minor blues (i7–iv7–V7)",
+      "namePt": "Blues menor (i7–iv7–V7)",
+      "genre": "blues",
+      "keyExample": "C",
+      "chords": [
+        "Cm7",
+        "Fm7",
+        "G7",
+        "Cm7"
+      ],
+      "romanOrFunctions": "i7 iv7 V7 i7",
+      "reference": "Blues menor (estrutura simplificada)",
+      "difficulty": 4,
+      "tags": [
+        "blues",
+        "minor"
+      ]
+    },
+    {
+      "id": "prog_098",
+      "name": "Minor blues (i7–iv7–V7)",
+      "namePt": "Blues menor (i7–iv7–V7)",
+      "genre": "blues",
+      "keyExample": "G",
+      "chords": [
+        "Gm7",
+        "Cm7",
+        "D7",
+        "Gm7"
+      ],
+      "romanOrFunctions": "i7 iv7 V7 i7",
+      "reference": "Blues menor (estrutura simplificada)",
+      "difficulty": 4,
+      "tags": [
+        "blues",
+        "minor"
+      ]
+    },
+    {
+      "id": "prog_099",
+      "name": "Minor blues (i7–iv7–V7)",
+      "namePt": "Blues menor (i7–iv7–V7)",
+      "genre": "blues",
+      "keyExample": "A",
+      "chords": [
+        "Am7",
+        "Dm7",
+        "E7",
+        "Am7"
+      ],
+      "romanOrFunctions": "i7 iv7 V7 i7",
+      "reference": "Blues menor (estrutura simplificada)",
+      "difficulty": 4,
+      "tags": [
+        "blues",
+        "minor"
+      ]
+    },
+    {
+      "id": "prog_100",
+      "name": "Minor blues (i7–iv7–V7)",
+      "namePt": "Blues menor (i7–iv7–V7)",
+      "genre": "blues",
+      "keyExample": "D",
+      "chords": [
+        "Dm7",
+        "Gm7",
+        "A7",
+        "Dm7"
+      ],
+      "romanOrFunctions": "i7 iv7 V7 i7",
+      "reference": "Blues menor (estrutura simplificada)",
+      "difficulty": 4,
+      "tags": [
+        "blues",
+        "minor"
+      ]
+    }
+  ]
+}

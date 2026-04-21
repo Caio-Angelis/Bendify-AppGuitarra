@@ -1,0 +1,6 @@
+# Modelo para fila de links local (copie para links.txt — links.txt está no .gitignore)
+# Um URL por linha. Linhas que começam com # são ignoradas.
+#
+# Exemplo:
+# https://example.com/video1
+# https://example.com/video2

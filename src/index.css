@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.14) rgba(255, 255, 255, 0.04);
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  /* Trilho + cabeça estilo knob físico (pedalboard) */
+  .pedal-knob-range {
+    @apply h-2 w-full cursor-pointer appearance-none rounded-full;
+    background: linear-gradient(180deg, #0c0c0c 0%, #242424 50%, #181818 100%);
+    box-shadow:
+      inset 0 2px 4px rgba(0, 0, 0, 0.85),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.04);
+  }
+  .pedal-knob-range:disabled {
+    @apply cursor-not-allowed opacity-45;
+  }
+  .pedal-knob-range::-webkit-slider-thumb {
+    @apply h-4 w-4 cursor-grab appearance-none rounded-full border border-black/50;
+    background: linear-gradient(165deg, #9ca3af 0%, #6b7280 45%, #4b5563 100%);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.35),
+      inset 0 -2px 3px rgba(0, 0, 0, 0.45),
+      0 2px 4px rgba(0, 0, 0, 0.65);
+  }
+  .pedal-knob-range::-webkit-slider-thumb:active {
+    @apply cursor-grabbing;
+    box-shadow:
+      inset 0 2px 4px rgba(0, 0, 0, 0.5),
+      0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  .pedal-knob-range::-moz-range-track {
+    height: 8px;
+    border-radius: 9999px;
+    background: linear-gradient(180deg, #0c0c0c 0%, #242424 50%, #181818 100%);
+    box-shadow:
+      inset 0 2px 4px rgba(0, 0, 0, 0.85),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.04);
+  }
+  .pedal-knob-range::-moz-range-thumb {
+    @apply h-4 w-4 cursor-grab appearance-none rounded-full border border-black/50;
+    background: linear-gradient(165deg, #9ca3af 0%, #6b7280 45%, #4b5563 100%);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.35),
+      inset 0 -2px 3px rgba(0, 0, 0, 0.45),
+      0 2px 4px rgba(0, 0, 0, 0.65);
+  }
+}
